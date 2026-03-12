@@ -1,0 +1,13 @@
+# Core dependencies for HugToM-QA benchmark
+dashscope>=1.20.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pydantic>=2.0.0
+
+# AI / LLM API packages
+openai>=1.0.0               # OpenAI & compatible APIs (DashScope, Novita, etc.)
+google-genai==1.32.0        # Google GenAI Python SDK (import as: from google import genai)
+anthropic>=0.72.0           # Anthropic Claude API
+
+# Standard library (included with Python)
+# json, pathlib, argparse, concurrent.futures, asyncio, os, time
