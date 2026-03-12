@@ -1,0 +1,3272 @@
+{
+  "timestamp": "2025-11-21 03:29:38",
+  "model": "gemini-2.5-pro",
+  "benchmark_path": "sample_belief_attribution_healthcare_filtered_different_results.jsonl",
+  "temperature": 0.1,
+  "include_demographics": true,
+  "include_context": true,
+  "overall_metrics": {
+    "total_questions": 108,
+    "correct_answers": 79,
+    "overall_accuracy": 0.7314814814814815,
+    "overall_mae": null,
+    "simplified_mae": null,
+    "uas_mae_norm": null,
+    "weighted_directional_accuracy": null
+  },
+  "group_results": {
+    "long": {
+      "total": 108,
+      "correct": 79,
+      "accuracy": 0.7314814814814815,
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "mae": null,
+      "simplified_mae": null,
+      "absolute_errors": [],
+      "simplified_errors": []
+    }
+  },
+  "all_question_details": [
+    {
+      "question_anchor": "qa_001_6738f2",
+      "question_id": "qa_001",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government-funded healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Does Government-funded healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "I think it has a negative effect because people have been conditioned to react negatively whenever they hear the phrase government funded healthcare."
+        },
+        "reasoning": "The person explicitly states that government-funded healthcare has a negative effect on support for universal healthcare due to public perception."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_6738f2",
+      "question_id": "qa_006",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the government's role in healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Government role in healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "I think it has, again, a negative effect because people have been conditioned to react negatively whenever they hear the phrase government-run healthcare..."
+        },
+        "reasoning": "The person clearly states that the government's involvement in healthcare has a negative effect on public support due to perception."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_6738f2",
+      "question_id": "qa_009",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do high out-of-pocket expenses affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Is the effect of Out-of-pocket expenses on Support for universal healthcare immediate, or does it take time to develop?",
+          "answer": "I guess you can take time to develop if out-of-pocket expenses get really, really, really expensive and can have a positive effect and increase in support for universal healthcare and obviously a strong effect."
+        },
+        "reasoning": "The person believes that high out-of-pocket expenses can eventually lead to increased support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_679ff3",
+      "question_id": "qa_001",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does spending less on medical bills affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How confident are you that changes in Universal healthcare policy lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it has a strong effect because people will spend less on medical bill"
+        },
+        "reasoning": "The person believes that spending less on medical bills leads to increased support for universal healthcare, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_679ff3",
+      "question_id": "qa_005",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Economic burden on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it takes time because to implement it, other national budget needs to be cut down"
+        },
+        "reasoning": "The mention of budget cuts implies a negative effect of economic burden on support for universal healthcare, though it may take time to manifest."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_007_58a1fe",
+      "question_id": "qa_007",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do changes in affordability affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Affordability lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Changes in affordability would definitely lead to changes in support for universal health care. That'd be a strong positive effect. I mean, if people are afraid of affordability of health care, then they're going to want universal health care."
+        },
+        "reasoning": "The person is confident that lower affordability leads to higher support for universal healthcare, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_64275e",
+      "question_id": "qa_003",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does seeing negative health outcomes in other countries affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How would you describe the relationship between Negative impact on health outcomes and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Maybe if people saw how badly the universal healthcare systems in other countries are, they'd be less willing to support it."
+        },
+        "reasoning": "The person suggests that awareness of negative outcomes in other countries would reduce support for universal healthcare, indicating a negative causal belief."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_64275e",
+      "question_id": "qa_006",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do changes in politicians affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Politicians lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "No matter what politicians say, people can see the truth about how universal healthcare system will negatively affect them, so NO, it won't change anything."
+        },
+        "reasoning": "The person believes that even small changes in politicians won't change public opinion, suggesting that the influence of politicians is negative or negligible, hence a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_010_64275e",
+      "question_id": "qa_010",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public perception affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Would small changes in Public Perception lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "No, because no matter how you frame universal healthcare, the truth is, people will still pay for medical expenses that they don't have."
+        },
+        "reasoning": "The person believes that public perception has little to no effect on support for universal healthcare, implying a negative or negligible effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_669d68",
+      "question_id": "qa_005",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does less private insurance affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Less private insurance lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I mean, this question is also redundant because if there's less private insurance, then yeah, people would probably want universal health care. Like if there's less private insurance, it means that we're moving towards universal health care. So yeah, it would have a positive effect on supporting universal health care. I don't fully understand this question."
+        },
+        "reasoning": "The person believes that a decrease in private insurance leads to increased support for universal healthcare, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_66d616",
+      "question_id": "qa_006",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does debt from healthcare costs affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Debt from healthcare costs have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "So, I believe that debt has a positive impact on healthcare specifically because that's what the company wants is people to get in debt to make more profit off of them. So it's technically a negative effect, but it's a positive effect for the healthcare company. So it's a pretty strong effect."
+        },
+        "reasoning": "The person believes that debt from healthcare costs has a strong negative effect on support for universal healthcare, even though it benefits healthcare companies."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_011_66355f",
+      "question_id": "qa_011",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_011",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in government affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Trust in government lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If people trust their government, they're more likely to trust changes in health care. They are more likely to support universal health care altogether if they trust that the people in charge of it have their best interest at heart. It's a positive effect there. If they don't trust the government, they're not going to trust universal health care at all. They're correlated."
+        },
+        "reasoning": "The person explicitly states that trust in government leads to greater support for universal healthcare, indicating a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_66355f",
+      "question_id": "qa_012",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the way healthcare is talked about in the media affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Is the effect of Healthcare as a right on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's not immediate. It definitely takes time. It's messaging that gets railroaded by corporate liberals and all Republicans at every step of the way. Anytime we start talking about health care as a right or explaining what health care for all even looks like or means, it gets demonized immediately and our media is very happy to jump on that wagon and help fear-monger and mislead people into thinking it's just socialism and it can't work. The effect of that's pretty strong and it sucks and it's unfair."
+        },
+        "reasoning": "The person believes that negative media messaging hinders support for universal healthcare, indicating a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_6643dc",
+      "question_id": "qa_013",
+      "prolific_id": "6643dc",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "6643dc",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Does Medical innovation have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If the government funding it would cause medical innovation to get better because it wouldn't be competitive, that would be positive. However, if private firms stopped paying to look into medical innovations and creating things because they weren't making money anymore, that would be very negative."
+        },
+        "reasoning": "The person expresses concern that under universal healthcare, private innovation may decline, which would be 'very negative' for support, indicating a potential negative effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_019_6643dc",
+      "question_id": "qa_019",
+      "prolific_id": "6643dc",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "6643dc",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the strength of the effect affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "How would you describe the relationship between Strength of the effect and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The strength of the effect and support for universal health care is a strong connection as a positive effect and hopefully would work."
+        },
+        "reasoning": "The person states that the strength of the effect has a 'strong connection' and is a 'positive effect' on support for universal healthcare."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_664cf2",
+      "question_id": "qa_013",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government funding affect support for universal healthcare?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How would you describe the relationship between Government-funded healthcare and Support for universal healthcare?",
+          "answer": "government funding isn't just a way to achieve universal healthcare; it's the primary way I envision and support it... The relationship is a strong positive one."
+        },
+        "reasoning": "The person sees government funding as essential to universal healthcare and expresses strong support when funding is robust."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_6810e6",
+      "question_id": "qa_016",
+      "prolific_id": "6810e6",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "6810e6",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do healthcare costs affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "Does Healthcare costs have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Healthcare costs have a negative effect on Support for universal healthcare; higher costs decrease support, and this effect is moderately strong."
+        },
+        "reasoning": "The person believes that higher healthcare costs decrease support for universal healthcare, with a moderately strong negative effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_6810e6",
+      "question_id": "qa_018",
+      "prolific_id": "6810e6",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "6810e6",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the quality of healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Quality healthcare on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of quality healthcare on support for universal healthcare usually takes time to develop, has a positive effect (increasing support), and is moderately strong."
+        },
+        "reasoning": "The person believes that better quality of healthcare increases support for universal coverage, though the effect takes time to develop and is moderately strong."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_024_660982",
+      "question_id": "qa_024",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the current quality of healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Impact on healthcare quality have a positive or negative effect on Support for universal healthcare?",
+          "answer": "I say neither. I don't think it's a positive nor a negative."
+        },
+        "reasoning": "The person explicitly states that healthcare quality has no positive effect, indicating a neutral or potentially negative stance on its influence."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_660982",
+      "question_id": "qa_028",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the economy affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Does The Economy have a positive or negative effect on Support for universal healthcare?",
+          "answer": "I think it depends on the president"
+        },
+        "reasoning": "While the answer is indirect, the implication is that economic conditions\u2014mediated by political leadership\u2014can influence support, suggesting a contextual but potentially positive link."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_5e1545",
+      "question_id": "qa_023",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does concern about healthcare quality affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Does Healthcare quality have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Many people fear that the quality will go down if we implement universal healthcare, but I don't agree"
+        },
+        "reasoning": "The person acknowledges that fear about declining quality negatively affects support, even though they personally disagree with that fear."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_5e1545",
+      "question_id": "qa_029",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public perception affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Would small changes in Public perception lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Maybe, I don't know"
+        },
+        "reasoning": "Although the person is uncertain, they suggest that changes in public perception could lead to changes in support, indicating a possible positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_021_678967",
+      "question_id": "qa_021",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government funding affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Is the effect of Government funding on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It depends on how it hits people's pockets. If there's a large decrease to people's out-of-pocket expenses immediately, it would be immediate. If there's a large increase, it's immediate. If it was slow and developed over time, it would have less of an effect and possibly more positive effect."
+        },
+        "reasoning": "The person believes that government funding can have a positive effect if it reduces out-of-pocket costs over time, suggesting a positive causal link between funding and support when it benefits individuals financially."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_678967",
+      "question_id": "qa_023",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does healthcare quality affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Would small changes in Healthcare quality lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't think small changes in quality would lead to noticeable changes in support unless it was accompanied by a financial change as well. If people were able to spend less money and have a higher quality, of course, this would have a positive effect in support. If there was a small change but it cost a lot more money, I think it would decrease support. If people felt like they were better off before, it would decrease support."
+        },
+        "reasoning": "The person believes that improved healthcare quality, especially when paired with lower costs, leads to increased support for universal healthcare, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_678967",
+      "question_id": "qa_025",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the healthcare delivery model affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Healthcare delivery model lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it would have a strong effect. It would definitely lead to a decrease in support if accessibility and choice were decreased in any way."
+        },
+        "reasoning": "The person believes that a negative change in the delivery model (like reduced accessibility and choice) would strongly decrease support, indicating a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_021_5e1553",
+      "question_id": "qa_021",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the cost of healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Does Low cost of care have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "Low cost has a positive impact for universal healthcare due to coverage is crucial for lowered costs for care."
+        },
+        "reasoning": "The person states that lower costs positively impact support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_5e1553",
+      "question_id": "qa_025",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does location affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How confident are you that changes in Location lead to changes in Support for universal healthcare?",
+          "answer": "I can see it increase support for universal healthcare. If costs do not change and insurance companies are still perceived negatively, then would expect a strong positive support."
+        },
+        "reasoning": "The person believes that in certain locations (e.g., where insurance is unpopular), support for universal healthcare would increase."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_5e1553",
+      "question_id": "qa_026",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing taxpayer interests affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Does Balancing taxpayer interests have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "Yes, giving taxpayers a choice to pick a private insurance and giving them benefits for picking that while paying taxes for universal healthcare is a win-win scenario, increasing support but might be a little weak depending on the increase in taxes."
+        },
+        "reasoning": "The person believes that balancing taxpayer interests increases support, though the strength depends on tax levels."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_037_66464c",
+      "question_id": "qa_037",
+      "prolific_id": "66464c",
+      "vqa": {
+        "id": "qa_037",
+        "prolific_id": "66464c",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the cost of healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How would you describe the relationship between Cost of healthcare and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The cost of healthcare is, in my opinion, the biggest factor in support for universal healthcare. People simply can't afford the care that they need. The connection is very strong. If the cost of healthcare wasn't so crippling to most people, we wouldn't see such an outcry of support for universal healthcare in the first place."
+        },
+        "reasoning": "The person believes that high healthcare costs strongly drive support for universal healthcare, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_032_669046",
+      "question_id": "qa_032",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_032",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Economic burden have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The economic burden should not be passed down to taxpayers for universal health care. So that burden would be a positive effect because the government would cover the costs and I think that it would have a positive effect and it would be strong."
+        },
+        "reasoning": "The person believes that if the economic burden is handled by the government rather than taxpayers, it positively affects support for universal healthcare and is strong."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_034_669046",
+      "question_id": "qa_034",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_034",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Is the effect of Medical innovation on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of medical innovation supporting universal healthcare, whether it's immediate or does it take time to develop, I am not sure about that. I think medical innovation might need time to develop, but the effect in the long run would be positive, and it would be a strong effect."
+        },
+        "reasoning": "Although the person is unsure about timing, they believe that in the long run, medical innovation has a strong positive effect on support for universal healthcare."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_039_669046",
+      "question_id": "qa_039",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_039",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic impact affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Economic effects lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I do not believe small changes in economic effects would lead to noticeable changes in support for universal health care. It would need to be a large shift and it would be a positive effect and it would be strong."
+        },
+        "reasoning": "The person believes that only large economic shifts would significantly affect support for universal healthcare, and that such shifts would be positive and strong."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_033_5f0d2a",
+      "question_id": "qa_033",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_033",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does belief in healthcare quality affect support for universal healthcare?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How would you describe the relationship between Healthcare quality and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Well, if people could be convinced that the quality would not go down, that would increase the support quite a bit, I think, but I don't know how they would be able to do this."
+        },
+        "reasoning": "The person believes that if people are assured that healthcare quality won't decline, support for universal healthcare would increase significantly."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_035_5f0d2a",
+      "question_id": "qa_035",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_035",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic impact on individuals affect support for universal healthcare?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Economic impact on individuals lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "No, there needs to be large changes, the medical costs are so darn high, that you need to have a big change for someone to change their support. The cost shouldn't be that high; the government being involved is part of what makes it so high."
+        },
+        "reasoning": "The person believes that large negative economic impacts (like high costs due to government involvement) would significantly reduce support for universal healthcare."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_038_57dd18",
+      "question_id": "qa_038",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_038",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does hearing negative stories about insurance companies affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Is the effect of Positive effect on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is probably strongly positive and immediate as you'll hear horror stories in the news of health insurance companies taking people's money and not paying."
+        },
+        "reasoning": "The person believes that negative media coverage of insurance companies immediately boosts support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_039_57dd18",
+      "question_id": "qa_039",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_039",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does income level affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Is the effect of Income on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It takes time to develop but it is strong over time. It depends where you are on the dominance hierarchy."
+        },
+        "reasoning": "The person believes that income level has a strong effect on support for universal healthcare, though it takes time to manifest."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_045_6422f3",
+      "question_id": "qa_045",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_045",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does criticism of the current system affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Criticism of Current System have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "The current system is a scam. Even 3rd world countries can afford better healthcare for its people"
+        },
+        "reasoning": "The strong criticism of the current system suggests that dissatisfaction with it increases support for universal healthcare, indicating a belief in a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_041_5d92ac",
+      "question_id": "qa_041",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_041",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does universal healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Does Universal healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "At this time it was a negative effect as people think that universal healthcare will cost a lot, limit providers, cause longer lines, etc."
+        },
+        "reasoning": "The person believes that the idea of universal healthcare negatively affects public support due to concerns like cost, provider limits, and wait times."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_042_5d92ac",
+      "question_id": "qa_042",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_042",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Does Access to care have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "Negative effect as people with access to care do not think about those who cannot afford it so they want the status quo to remain"
+        },
+        "reasoning": "The person believes that when people already have access to care, they are less likely to support universal healthcare, leading to a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_043_5d92ac",
+      "question_id": "qa_043",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How confident are you that changes in Economic burden lead to changes in Support for universal healthcare?",
+          "answer": "Very confident. If people knew or understood the actual cost of universal healthcare they could make an informed decision rather than one based on fear."
+        },
+        "reasoning": "The person believes that understanding the true economic burden could positively influence support for universal healthcare by reducing fear-based decisions."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_044_5d92ac",
+      "question_id": "qa_044",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_044",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does allowing private practice as an alternative affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Private practice as an alternative lead to changes in Support for universal healthcare?",
+          "answer": "Possibly a positive effect so that those who do not want to buy in can be excluded and have their own providers at their own cost."
+        },
+        "reasoning": "The person believes that offering private practice as an alternative could increase support for universal healthcare by giving choice to those who prefer it."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_045_56e60e",
+      "question_id": "qa_045",
+      "prolific_id": "56e60e",
+      "vqa": {
+        "id": "qa_045",
+        "prolific_id": "56e60e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Is the effect of Economic burden on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It should be able to be calculated based on history data immediately."
+        },
+        "reasoning": "The person implies that economic burden can be assessed quickly, suggesting it has a negative impact on support, though not explicitly stated, the context implies concern about cost reducing support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_043_67e70a",
+      "question_id": "qa_043",
+      "prolific_id": "67e70a",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "67e70a",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do healthcare costs affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Would small changes in Healthcare costs lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is, because it's so high nowadays for the healthcare costs, even small changes will just add a bigger burden on the citizens."
+        },
+        "reasoning": "The person believes that higher healthcare costs increase the burden on citizens, which likely increases support for universal healthcare, but the framing suggests a negative effect of rising costs on affordability, not directly on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_049_67e70a",
+      "question_id": "qa_049",
+      "prolific_id": "67e70a",
+      "vqa": {
+        "id": "qa_049",
+        "prolific_id": "67e70a",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does citizens' financial burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Does Citizens' financial burden have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, if we're world rich, then we don't have this problem, right? And that's because average citizens, you know, they can only earn so much and it's even more than they earn has or have to go to the healthcare. That doesn't make any sense."
+        },
+        "reasoning": "The person believes that higher financial burden on citizens increases the demand for universal healthcare, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_051_5a3bdd",
+      "question_id": "qa_051",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_051",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the cost of living affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Cost of living lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Very confident, because people see how expensive medical bills are, so they will be a lot more likely to support universal healthcare, especially because it hits so close to home."
+        },
+        "reasoning": "The person believes rising costs lead to increased support, showing a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_057_5a3bdd",
+      "question_id": "qa_057",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_057",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do medical bills affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Would small changes in Medical bills lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There will be strong impacts, if people see high medical bills, they will be a lot more likely to support universal healthcare, and vice versa."
+        },
+        "reasoning": "The person believes that high medical bills increase support, suggesting that medical bills have a negative effect on people's current satisfaction, which in turn increases support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_051_681bdc",
+      "question_id": "qa_051",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_051",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does inequality affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Is the effect of Inequality on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's immediate because they need to bring down immediately the social inequality."
+        },
+        "reasoning": "The person believes that reducing inequality immediately increases support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_056_681bdc",
+      "question_id": "qa_056",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Economic burden and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's a great deal, the economic standards greatly affect access to healthcare. So with the universal healthcare coming up, there will be a lot of support for those people who are not well off, so that is going to be a huge saving for them."
+        },
+        "reasoning": "The person believes that reducing economic burden through universal healthcare increases support, especially among lower-income individuals."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_055_67ac6e",
+      "question_id": "qa_055",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_055",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a reduction in income affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Pay reduction on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Pay reduction effects probably take time to show because people need to feel the change. It has a negative effect."
+        },
+        "reasoning": "The person believes that income reduction negatively affects support for universal healthcare, indicating a negative effect over time."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_059_67ac6e",
+      "question_id": "qa_059",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_059",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does people not having enough money affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between People not having enough money and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "People not having enough money usually has a strong connection to supporting universal healthcare."
+        },
+        "reasoning": "The person believes that financial hardship strongly increases support for universal healthcare, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_060_67ac6e",
+      "question_id": "qa_060",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_060",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How would you describe the relationship between Medical innovation and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The connection between medical innovation and support for universal healthcare is usually weak."
+        },
+        "reasoning": "The person believes that medical innovation has little to no positive effect on support, implying a weak or negative relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_058_66293c",
+      "question_id": "qa_058",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_058",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government-run healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Government healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect?",
+          "answer": "Less government, the better."
+        },
+        "reasoning": "The person expresses a general distrust of government involvement, implying a negative effect on support for government-run universal healthcare."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_066_67ad19",
+      "question_id": "qa_066",
+      "prolific_id": "67ad19",
+      "vqa": {
+        "id": "qa_066",
+        "prolific_id": "67ad19",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing the needs of different groups affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Does Importance of both groups' needs have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The importance of balancing both groups\u2019 needs has a positive effect on support for universal healthcare. This effect is moderately strong."
+        },
+        "reasoning": "The person believes that addressing the needs of different groups increases support for universal healthcare, with a moderately strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_063_67e32a",
+      "question_id": "qa_063",
+      "prolific_id": "67e32a",
+      "vqa": {
+        "id": "qa_063",
+        "prolific_id": "67e32a",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does cost control affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Cost control lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "When the government enforces measures to lower healthcare expenses, the support for UHC substantially increases. The factor strongly influences people's attitudes toward UHC."
+        },
+        "reasoning": "The person believes that when the government successfully controls healthcare costs, public support for UHC increases significantly."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_67e32b",
+      "question_id": "qa_004",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Economic burden on individuals and families lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes it could lead to state wide protests"
+        },
+        "reasoning": "The mention of 'state wide protests' indicates that rising economic burden increases public dissatisfaction, which in turn likely boosts support for universal healthcare as a solution\u2014implying a positive causal effect from burden to support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_67e32b",
+      "question_id": "qa_008",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government overspending affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Would small changes in Government overspending lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "i think the chnages would be very cynical and shifts like this are very much positive because its a means of alleviation of poverty"
+        },
+        "reasoning": "Despite confusing wording, the speaker says such shifts are 'very much positive because it's a means of alleviation of poverty', indicating they see government spending (even overspending) as beneficial and supportive of universal healthcare expansion."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_010_67e32b",
+      "question_id": "qa_010",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does controlling healthcare costs through strong measures affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Would small changes in Strong effect lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it woulddefibtely take larger shifts"
+        },
+        "reasoning": "Though vague, 'Strong effect' in context refers back to prior questions about impactful changes. The speaker believes only large shifts matter, implying that when such strong cost-controlling actions occur, they do positively influence support\u2014just not incrementally."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_675de3",
+      "question_id": "qa_001",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does healthcare quality affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Does Quality of healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If it could be proven that the health care was as good or better than health care that wasn't done in this way, then it would be a positive effect. But since I know that's never going to be the case, this is a very negative, very strong negative effect."
+        },
+        "reasoning": "The person believes that current healthcare quality under universal coverage would be worse, leading to strong opposition. They explicitly state it has a 'very negative, very strong negative effect.'"
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_675de3",
+      "question_id": "qa_004",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How confident are you that changes in Medical innovation and research lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The changes in medical innovation would be very negative because I don't think they could afford actually to do that much of them. It would be a very strong negative for medical innovation."
+        },
+        "reasoning": "The speaker links universal healthcare to reduced medical innovation due to affordability concerns, calling it a 'very strong negative' effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_675de3",
+      "question_id": "qa_005",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on individuals and families affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Economic burden on individuals and families and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There would be a good connection between these two. Having universal health care would help very specific families in a very good way to get the help they needed."
+        },
+        "reasoning": "Although the speaker is generally opposed, here they acknowledge that reducing economic burden helps certain families, implying a positive effect on support from those affected."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_675de3",
+      "question_id": "qa_009",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does people's voice in healthcare decisions affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Healthcare consumer voice have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "This just depends on whether you need it or not, or you're a very liberal person that wants to give everybody everything. That's just not how the world works. So this is a negative strong effect."
+        },
+        "reasoning": "They dismiss broad public demand for universal care as unrealistic liberalism and conclude it has a 'negative strong effect,' meaning they see consumer voice as driving unwise support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_010_675de3",
+      "question_id": "qa_010",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do changes in healthcare policy affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How confident are you that changes in Healthcare policy lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Well, it depends on if those changes in healthcare policy are universal healthcare. If it is, that's a negative effect, very strong negative effect."
+        },
+        "reasoning": "When the policy change *is* universal healthcare, the speaker says it results in a 'very strong negative effect' on support, indicating strong opposition to such policies."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_664504",
+      "question_id": "qa_004",
+      "prolific_id": "664504",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "664504",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Economic burden on individuals and families have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it currently has a negative effect, but I think that with universal health care, it would have a huge positive effect. People can't pay for medical treatment. I don't even go to the doctor because I can't afford it."
+        },
+        "reasoning": "Although current economic burden may suppress support due to disengagement, the speaker believes universal healthcare would dramatically reduce this burden and thus generate strong positive support\u2014indicating they see reduced financial strain as a driver of greater support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_664504",
+      "question_id": "qa_006",
+      "prolific_id": "664504",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "664504",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Does Access to care have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I mean, I think that it has a positive effect. People need to be able to access care, and with universal healthcare, they would be absolutely able to access care that they need."
+        },
+        "reasoning": "The respondent clearly states that better access to care has a positive effect on support for universal healthcare, linking tangible benefits to increased public backing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_664504",
+      "question_id": "qa_009",
+      "prolific_id": "664504",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "664504",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does personal opinion affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How would you describe the relationship between Personal opinion and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'm sure that there's a strong connection between personal opinion and support for universal health care. I know that it's because of my personal dealings that I support it, but we're also the only in the country that doesn't have it. I mean, not the only, but one of few."
+        },
+        "reasoning": "The speaker directly links personal experience and opinion to their own support, indicating a belief that personal views strongly and positively shape overall support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_669425",
+      "question_id": "qa_003",
+      "prolific_id": "669425",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "669425",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does cost as a barrier to care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Cost as a barrier to care and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Cost as a barrier to care has a strong positive connection with support for universal health care. I think the more people feel blocked from quality health care because of their money, the more support goes up. It's one of the biggest drivers behind why people push for it is to get equitable access to quality health care."
+        },
+        "reasoning": "The person explicitly links high costs blocking care to increased support for universal healthcare, calling it one of the biggest drivers\u2014indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_669425",
+      "question_id": "qa_004",
+      "prolific_id": "669425",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "669425",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How confident are you that changes in Economic burden on individuals and families lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I am very confident that changes in the economic burden on families impact support for universal health care. The effect is going to be positive because the more people are burdened, the more support's going to go up and it's going to be a strong effect since money stress is one of the biggest reasons people want universal coverage in the first place."
+        },
+        "reasoning": "The person expresses high confidence that greater economic burden increases support, citing money stress as a core motivator\u2014clearly a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_669425",
+      "question_id": "qa_005",
+      "prolific_id": "669425",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "669425",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does payment reduction affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Payment reduction and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Payment reduction has a positive relationship with support for universal health care. When people see their out-of-pocket costs go down, support goes up. The connection is strong since saving money is one of the biggest reasons people back this idea."
+        },
+        "reasoning": "The person directly states that lower payments increase support due to the appeal of saving money, indicating a strong positive causal belief."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_664ec4",
+      "question_id": "qa_003",
+      "prolific_id": "664ec4",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "664ec4",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does improved public health affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Does Improved public health have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yeah I think it has a strong impact. I think that in general if healthcare does go down in quality that there'll be less of a strong support for it for higher income people but at the same time they can still use their private insurance and go to private doctors and so that shouldn't be too much of an excuse."
+        },
+        "reasoning": "The person suggests that declining public health (or lower quality care) could reduce support among higher-income individuals, implying a negative effect of poor public health on support, despite other compensating factors."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_664ec4",
+      "question_id": "qa_005",
+      "prolific_id": "664ec4",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "664ec4",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Economic burden on individuals and families and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that's a very strong connection and it has a positive effect for supporting universal health care."
+        },
+        "reasoning": "The person explicitly identifies a strong positive link between high economic burden and greater support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_010_664ec4",
+      "question_id": "qa_010",
+      "prolific_id": "664ec4",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "664ec4",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does healthcare quality affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Is the effect of Healthcare quality on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that healthcare quality will be something that takes time to develop, and I think that that will have a pretty negative effect on support, because when you have universal healthcare the quality will dip for a while, but I think it'll take time for it to improve over time."
+        },
+        "reasoning": "The person expects a temporary decline in quality after implementing universal healthcare, which they believe will negatively affect public support\u2014a clear negative causal belief in the short term."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_678f0b",
+      "question_id": "qa_012",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does affordability of care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q6",
+          "question": "Does Affordability of care have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Affordability of care has a profound immediate positive effect on Support for universal healthcare without one the other would not exist and vice versa"
+        },
+        "reasoning": "The person explicitly describes a 'profound immediate positive effect' and says affordability and support are mutually dependent, indicating a strong belief in a positive causal relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_014_678f0b",
+      "question_id": "qa_014",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Economic burden on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If fixed the economic burden will reverse into becoming a positive economic effect"
+        },
+        "reasoning": "The speaker believes that resolving economic burden turns it into a positive force, implying that reducing economic strain strengthens support\u2014thus, economic burden negatively affects support unless addressed, so fixing it has a positive impact."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_015_678f0b",
+      "question_id": "qa_015",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_015",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does non-interference in operations affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Would small changes in Non-interference in operations lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it will take larger shifts the whole system needs to be fixed but the resources to successfully succeed are available and the prize to getting it done is great"
+        },
+        "reasoning": "The person believes major systemic change (including non-interference) is required, and that success brings a 'great' reward\u2014indicating a belief that reducing interference positively impacts support, though only with large-scale reform."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_678f0b",
+      "question_id": "qa_016",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does cost of care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Cost of care and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "you can compare the cost of similar services paid by a privately insured person to the cost that a Medicare insured person incurs to realize the large disparity between the two"
+        },
+        "reasoning": "By highlighting the high cost under private insurance versus lower public costs, the person implies that lowering care costs through universal coverage increases support\u2014indicating a belief in a positive effect of reduced costs on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_011_670f61",
+      "question_id": "qa_011",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_011",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q6",
+          "question": "How confident are you that changes in Access to healthcare lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If everyone has access to universal health care, obviously there's going to be so much support for universal health care, but again this is all theoretical and although it's positive, what does it really mean?"
+        },
+        "reasoning": "The person believes that better access to healthcare would lead to more support for universal healthcare, calling it 'obviously' leading to 'so much support,' indicating a positive effect, despite calling the scenario theoretical."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_670f61",
+      "question_id": "qa_013",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Economic burden on individuals and families have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The economic burden that current healthcare has, private healthcare has, obviously has a strong effect on people wanting to support universal healthcare because most people would believe that universal healthcare would or should reduce the cost, but it all really depends how it's implemented. So right now, most people would want to support it, but realistically, knowing what has happened in the past, some people end up paying more and that's a big worry."
+        },
+        "reasoning": "The person says the current economic burden 'obviously has a strong effect' in increasing support for universal healthcare, even though they express concern about implementation risks."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_670f61",
+      "question_id": "qa_016",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do regulations on prices affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Regulation have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "regulation in general might be positive because then that could lead to well-defined prices going to the doctor as well as paying for medicine so supposedly it's positive but we'll see"
+        },
+        "reasoning": "The person suggests regulation could bring clarity to medical pricing and calls it 'supposedly positive,' showing a leaning toward believing it would positively influence support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_670f61",
+      "question_id": "qa_018",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does healthcare abuse affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How confident are you that changes in Healthcare abuse lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I mean, healthcare abuse is so strong right now that any type of change is desired, and so this would probably have a positive effect because one can't imagine it getting any worse."
+        },
+        "reasoning": "The person argues that widespread abuse creates demand for change, which would likely boost support for universal healthcare\u2014indicating a belief in a positive causal link."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_020_670f61",
+      "question_id": "qa_020",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much did Obamacare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "How confident are you that changes in Obamacare lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "For me, I felt that Obamacare didn't really support universal health care because most people don't use it. It's great for the people who couldn't afford it, but it was horrible for people who had health care and had their premiums increased astronomically, as well as now everything is so more expensive."
+        },
+        "reasoning": "The person views Obamacare negatively for those already insured, citing high premium increases and rising costs, suggesting it reduced broader support for universal healthcare ideals."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_5d093f",
+      "question_id": "qa_012",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Is the effect of Access to healthcare on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Immediate. You enroll in a plan and can receive your benefits. People who were priced out before will now be able to afford basic healthcare services."
+        },
+        "reasoning": "The person believes that when people gain access to healthcare\u2014especially those previously unable to afford it\u2014support for universal healthcare increases immediately, showing a clear positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_014_5d093f",
+      "question_id": "qa_014",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does pricing out individuals affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Would small changes in Pricing out individuals lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would take large shifts and depend on how much the healthcare costs. If more people have access to healthcare, then that would lead to more support."
+        },
+        "reasoning": "While the person says large shifts are needed, they still believe that reducing the number of people priced out leads to increased support, confirming a positive causal direction despite threshold effects."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_5d093f",
+      "question_id": "qa_016",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Economic burden on individuals and families and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There's a strong connection because a lot of families are currently priced out of basic medical care and services. With a universal system, they will be able to afford it."
+        },
+        "reasoning": "The person sees high economic burden as driving demand for universal healthcare, believing relief from that burden would increase support\u2014a clear positive causal link."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_56e967",
+      "question_id": "qa_012",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How would you describe the relationship between Access to healthcare and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is the relationship. It is the connection. Again, I haven't had health care in so many years because I can't afford to pay the insurance. I can't afford to pay out of pocket. It's not free. So who knows? I could be dying. I don't know. I won't know. Universal health care allows me to take care of myself."
+        },
+        "reasoning": "The speaker directly equates access to healthcare with the need for universal healthcare, citing personal lack of access as a key reason for supporting it\u2014indicating a strong positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_56e967",
+      "question_id": "qa_013",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Economic burden on individuals and families and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is the connection. That is the connection. The economic burden is the connection. Anything that's going to help families thrive and survive today is going to be a positive thing."
+        },
+        "reasoning": "The person explicitly identifies economic burden as 'the connection,' meaning they see reducing financial strain as a major driver of support for universal healthcare\u2014a clear positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_56e967",
+      "question_id": "qa_016",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the bottleneck effect in healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How would you describe the relationship between Bottleneck effect in healthcare and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that sometimes it takes a month to get an appointment for something that I need an appointment for tomorrow. I think that universal health care would fix this."
+        },
+        "reasoning": "The person sees long wait times (bottlenecks) as a serious problem and believes universal healthcare would resolve it, showing they believe improving flow increases support\u2014positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_024_660cda",
+      "question_id": "qa_024",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Medical innovation and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think the relationship between medical innovation and support for universal health care is a pretty weak connection but yeah and I also think it's somewhat negative and not very strong."
+        },
+        "reasoning": "The person indicates that greater medical innovation slightly reduces support for universal healthcare, calling it a 'somewhat negative' and weak effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_660cda",
+      "question_id": "qa_025",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Economic burden on individuals and families on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it's immediate, I think it has a positive effect, and I think it is strong."
+        },
+        "reasoning": "The person believes financial strain from healthcare costs immediately increases public support for universal coverage, with a strong positive impact."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_660cda",
+      "question_id": "qa_026",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a limited government role in healthcare affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Would small changes in Limited government role in healthcare lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, I believe it would lead to noticeable changes, um, I Think it is a positive effect and a strong one as well"
+        },
+        "reasoning": "The person believes that when the government plays a smaller role in healthcare, people are more likely to support universal healthcare, seeing this as a strong positive driver."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_660cda",
+      "question_id": "qa_029",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the natural balance of interests affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Natural balance of interests have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it has a somewhat negative effect, but I don't think it's very significant. I think it is not strong."
+        },
+        "reasoning": "The person believes that maintaining a 'natural balance of interests'\u2014likely referring to status quo or market equilibrium\u2014slightly decreases support for universal healthcare, though they see the effect as weak."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_68c19d",
+      "question_id": "qa_028",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does rising demand for healthcare affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Does Increased demand for healthcare have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think increased demand for healthcare would have a slightly negative effect on supporting universal healthcare because people would be concerned about if there's enough supply to meet the demand. So if there's enough facilities and providers to fulfill the healthcare needs of the people, there would definitely need to be more facilities and healthcare providers available."
+        },
+        "reasoning": "The person expresses concern that high demand without sufficient supply could undermine confidence and reduce support, reflecting a slightly negative effect due to capacity fears."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_022_6483fd",
+      "question_id": "qa_022",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to healthcare affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How confident are you that changes in Access to healthcare lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe that changes in access to health care is a positive effect in supporting universal health care, then everyone would be able to have access to health care."
+        },
+        "reasoning": "The speaker links improved access directly to greater support for universal healthcare, calling it a 'positive effect'\u2014indicating a belief in a causal positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_6483fd",
+      "question_id": "qa_025",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Is the effect of Economic burden on individuals and families on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The economic burden would be immediate and it would be strong if someone had insurance that would cover their medication that they can't afford to pay every month that would be an immediate economic effect."
+        },
+        "reasoning": "Although the answer focuses on relief from burden, the implication is that high economic burden increases support for universal healthcare as a solution\u2014thus, the factor drives support positively and immediately."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_6483fd",
+      "question_id": "qa_026",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government regulation affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Government regulation have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Government regulation would have a positive effect in that our, as I mentioned earlier, our health care system unfortunately now is a for-profit situation, so the government regulation would have to affect it positively."
+        },
+        "reasoning": "The speaker believes government regulation corrects a flawed for-profit system and thus would positively influence support for universal healthcare by improving trust or outcomes."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_027_6483fd",
+      "question_id": "qa_027",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do big pharma companies' actions affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Is the effect of Big pharma companies on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I would say it would be immediate. Again, if someone had insurance tomorrow and they could get their medications that they couldn't afford or go see a physician because they couldn't before, it would definitely make a difference if Big Pharma had to lower their costs instead of being for profit, if it was a non-for-profit system."
+        },
+        "reasoning": "The speaker implies that when pharmaceutical companies reduce prices due to systemic change (like universal care), it creates immediate benefits that boost public support\u2014so their current behavior negatively affects access, but changing it supports universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_6483fd",
+      "question_id": "qa_028",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does provider availability affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Would small changes in Provider concern influence on policy lead to noticeable changes in Support for universal healthcare, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Small changes in provider, if by concern, you mean availability, that could be immediate. It wouldn't have to take a long time. The more availability would make it, I suppose, more support."
+        },
+        "reasoning": "The speaker interprets 'provider concern' as availability and states that increased availability leads to more support\u2014indicating a belief in a positive causal relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_6483fd",
+      "question_id": "qa_029",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do healthcare costs affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How would you describe the relationship between Healthcare costs and Support for universal healthcare? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Health care costs are one of the biggest reasons to support universal health care. People cannot afford insurance now, they can't afford to go to a doctor, they can't afford their medication. I would say it is definitely a connection and it is a positive effect in supporting universal health care."
+        },
+        "reasoning": "The speaker identifies high healthcare costs as a major driver of support for universal healthcare, explicitly calling it a 'positive effect'\u2014meaning higher costs increase support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_030_6483fd",
+      "question_id": "qa_030",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_030",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does emergency room usage as a primary care substitute affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Emergency room usage have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If you mean emergency room usage in terms of people using the emergency room as a physician for the most part, I would say that that would be a positive in support for universal health care. People would be able to go to a regular doctor instead of waiting until they're so ill that they have to go to the emergency room."
+        },
+        "reasoning": "The speaker sees excessive ER use due to lack of access as a problem that universal healthcare would solve, and awareness of this issue increases support\u2014thus, it's a positive causal factor in driving support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_58014d",
+      "question_id": "qa_025",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Economic burden on individuals and families have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It has a net positive effect for most people; it can be said to be 'negative' for some in the sense that they falsely believe they'll be done any real harm by paying taxes to help others stop suffering, especially when you consider how much blue-collar crime is committed due to economic inequality."
+        },
+        "reasoning": "Despite acknowledging some resistance, the person emphasizes a 'net positive effect,' arguing that widespread financial strain drives broader support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_027_58014d",
+      "question_id": "qa_027",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does private providers focusing on profits affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Private providers prioritize profits on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "IT's immediate since their greed can cause suffering and death at any time without notice/warning. It could take time to get even worse in a sense, but it would be clearly worse before much time at all has passed."
+        },
+        "reasoning": "The speaker links profit-driven behavior by private providers to growing public outrage, which fuels support\u2014thus seeing it as a positive driver of support despite being a negative social factor."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_030_58014d",
+      "question_id": "qa_030",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_030",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to care affect support for universal healthcare according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Is the effect of Access to care on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Immediate. It's going to have a strong positive effect once the majority of people see how much better they're doing health-wise as well as economically."
+        },
+        "reasoning": "Direct improvement in access produces fast, observable benefits, which the person believes will immediately boost support for universal healthcare."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_022_673021",
+      "question_id": "qa_022",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do changes in access to care affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How confident are you that changes in Access to care lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Changes in access to care definitely has a moderate impact on the support for universal healthcare. If people have to wait longer to be seen for an emergency situation or illnesses that can lead to death, it will result in more death. So the wait time has to be controlled well so more healthcare providers need to, you know, the government should prioritize having more healthcare providers if they implement this system."
+        },
+        "reasoning": "The speaker links worse access (e.g., long wait times) to negative outcomes like death, implying reduced support. Though not directly stated as negative, the context shows that poor access undermines public confidence\u2014indicating a negative effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_024_673021",
+      "question_id": "qa_024",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Medical innovation and research have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Reducing in medical innovation and research definitely has somewhat of a negative impact on the support. It is somewhat significant but"
+        },
+        "reasoning": "The speaker believes that *reduced* innovation negatively affects support, meaning lower innovation leads to lower support\u2014this implies innovation has a positive role, so its reduction has a negative effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_673021",
+      "question_id": "qa_025",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic burden on families affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How confident are you that changes in Economic burden on individuals and families lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I am very confident that the changes in economic burden on individuals and families will lead to huge support for universal healthcare. Imagine everybody pays so much less or close to zero for healthcare, they will feel like this is worth it."
+        },
+        "reasoning": "The person directly links lower economic burden (i.e., saving money) to increased support, showing a clear belief in a positive causal effect: reducing financial strain increases public backing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_673021",
+      "question_id": "qa_029",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much do high healthcare costs affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Healthcare costs for individuals have a positive or negative effect on Support for universal healthcare, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Healthcare cost is a very strong impact on the support. The higher the healthcare cost, the stronger the support. As in, the higher the normal healthcare cost, the stronger the support. And, of course, after implementing, the lower the healthcare cost, after implementing this, the higher the support."
+        },
+        "reasoning": "The speaker clearly states that higher current healthcare costs increase support for universal healthcare, showing a belief that financial pain drives demand\u2014thus a positive causal effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_022_60d54e",
+      "question_id": "qa_022",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does healthcare accessibility affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How confident are you that changes in Healthcare accessibility lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that people not being able to go to the doctor because there's too many people using the system because You're all of a sudden allowing access to everybody for free I mean that you're talking about people that are going to be going to doctors for like every sniffle every running nose every You know sneeze they have"
+        },
+        "reasoning": "The person links increased accessibility under universal healthcare to system overload and reduced access, suggesting they believe better accessibility leads to worse outcomes and thus reduces support\u2014indicating a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_60d54e",
+      "question_id": "qa_023",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does medical innovation research affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "How confident are you that changes in Medical innovation research lead to changes in Support for universal healthcare? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that, you know, medical innovation is expensive and you need people that are going to be able to pay for these innovations in order for them to work."
+        },
+        "reasoning": "The speaker suggests that universal healthcare would reduce the ability to pay for innovation, which could undermine medical progress. This implies a belief that supporting universal healthcare harms innovation, leading to lower support\u2014hence a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_60d54e",
+      "question_id": "qa_028",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "healthcare",
+        "task_type": "belief_attribution",
+        "task_question": "How much does better quality of care affect support for universal coverage according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Is the effect of Better quality of care on Support for universal healthcare immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Um, better quality of care is going to happen if you don't have universal health care. So yeah, that would be pretty immediate."
+        },
+        "reasoning": "The person believes better quality of care exists *outside* universal healthcare, meaning universal coverage leads to lower quality, which would reduce public support\u2014thus a negative effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    }
+  ]
+}

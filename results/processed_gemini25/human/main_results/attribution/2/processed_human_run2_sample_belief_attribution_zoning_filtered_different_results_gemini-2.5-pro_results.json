@@ -1,0 +1,3812 @@
+{
+  "timestamp": "2025-11-21 03:29:38",
+  "model": "gemini-2.5-pro",
+  "benchmark_path": "sample_belief_attribution_zoning_filtered_different_results.jsonl",
+  "temperature": 0.1,
+  "include_demographics": true,
+  "include_context": true,
+  "overall_metrics": {
+    "total_questions": 126,
+    "correct_answers": 93,
+    "overall_accuracy": 0.7380952380952381,
+    "overall_mae": null,
+    "simplified_mae": null,
+    "uas_mae_norm": null,
+    "weighted_directional_accuracy": null
+  },
+  "group_results": {
+    "long": {
+      "total": 126,
+      "correct": 93,
+      "accuracy": 0.7380952380952381,
+      "answers": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "mae": null,
+      "simplified_mae": null,
+      "absolute_errors": [],
+      "simplified_errors": []
+    }
+  },
+  "all_question_details": [
+    {
+      "question_anchor": "qa_002_6738f2",
+      "question_id": "qa_002",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_002",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Affordability lead to changes in Support for Upzoning?",
+          "answer": "I don't think it will have any effect because the biggest influence is the Community consent."
+        },
+        "reasoning": "The person believes affordability has no effect, implying a negative or neutral influence, because community consent dominates decision-making."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_6738f2",
+      "question_id": "qa_006",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the role of local government affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Local government role have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "It has no effect because the decision ultimately rests with the existing homeowners."
+        },
+        "reasoning": "The person believes local government has no real influence, implying a negative or neutral effect on support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_6738f2",
+      "question_id": "qa_008",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do the interests of future residents affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Is the effect of Interests of future residents on Support for Upzoning immediate, or does it take time to develop?",
+          "answer": "It has relative little effect, and when it does, the effect is weak."
+        },
+        "reasoning": "The person believes the interests of future residents have minimal or weak influence, implying a negative or neutral effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_679ff3",
+      "question_id": "qa_006",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does multi-family housing affect building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Does multi housing have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "multi housing has a strong positive effect, the more the people in the area supports the upzoning the more positive effect to start will be"
+        },
+        "reasoning": "The person clearly states that multi-family housing has a strong positive effect on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_58a1fe",
+      "question_id": "qa_001",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Higher density housing have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "Higher density housing I think does have a positive effect on upzoning because you've got more people and it just is a direct effect and it's going to be a strong effect."
+        },
+        "reasoning": "The person believes that higher density housing increases support for upzoning directly and strongly."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_007_58a1fe",
+      "question_id": "qa_007",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing development affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between Housing development and Support for Upzoning?",
+          "answer": "I think this is an interesting connection. It depends on where people are in life and what their housing needs are. So housing development and support for upzoning are a bit conflicting in my opinion. I think if people want to support housing they're not going to want to support upzoning."
+        },
+        "reasoning": "The person believes that there is a conflict between supporting housing development and supporting upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_58a1fe",
+      "question_id": "qa_008",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does environmental pollution affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Is the effect of Environmental pollution on Support for Upzoning immediate, or does it take time to develop?",
+          "answer": "I think the effect of environmental pollution is probably an immediate effect on people's support for upzoning. I think this because people will immediately consider environmental pollution as it becomes more real to them and after upzoning has happened people are going to see more of an effect but in the beginning they're going to consider it."
+        },
+        "reasoning": "The person believes that environmental pollution immediately reduces support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_58a1fe",
+      "question_id": "qa_009",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased personal income affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "How confident are you that changes in Increased revenue lead to changes in Support for Upzoning?",
+          "answer": "I think increased revenue, when people are earning more individually, they're going to decrease their support for upzoning because they're going to want to focus more on their home, which is going to most likely be a house they own in their neighborhood. They're not going to want their neighborhood cluttered with apartments."
+        },
+        "reasoning": "The person believes that as people earn more, they are less likely to support upzoning because they prefer not to have dense housing near their homes."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_64275e",
+      "question_id": "qa_001",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more low-income housing affect support for more housing development according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Higher density housing lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's going to be NEGATIVE. If we're talking about people, it's not just quantity that we're supposed to worry about, but also the quality. So we can say \"Don't judge a book by their cover\", but we also must think that people are in the situation they are for a reason. So if we're going to get flooded by low income people, we have to ask, \"Why are they low income?\" Of course not all low income people are bad, but majority of criminals are low income people."
+        },
+        "reasoning": "The person believes that building more low-income housing will bring in people they associate with crime and negative outcomes, which reduces support for housing development."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_64275e",
+      "question_id": "qa_008",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does equity-focused policy affect support for more housing development according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q26",
+          "question": "Does Equity have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Equity has NEGATIVE effects on people already living in the community, because the point of equity is to take from those people (land space) and to redistribute it to other people (the low income people). People might try to frame it as \"helping the poor\", but you can help poor people in other ways without harming the community."
+        },
+        "reasoning": "The person believes equity policies harm current residents and therefore have a strong negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_669d68",
+      "question_id": "qa_001",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing quickly affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Higher density housing lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that larger shifts would be very detrimental to the population and the economy and just generally everything here... I think that smaller changes would probably lead for more support or rather less negativity... Whereas if things happened in very little ways and slowly, perhaps the cities would be able to manage it better..."
+        },
+        "reasoning": "The person believes that rapid, large-scale housing development leads to strong public opposition, while slower changes may be more accepted. This indicates a negative effect of fast-paced housing development on public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_669d68",
+      "question_id": "qa_003",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the ability of older people to adapt affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Adaptation of older people and Support for Upzoning?",
+          "answer": "I think it's a significantly strong connection... It definitely has a negative effect on how I would feel about upzoning... I don't think people should have to adapt that significantly, especially in areas that are already established."
+        },
+        "reasoning": "The person believes that older people's difficulty adapting to change strongly reduces support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_669d68",
+      "question_id": "qa_004",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "How would you describe the relationship between Housing affordability and Support for Upzoning?",
+          "answer": "It's definitely a strong effect... In areas where most people rent, it would be very beneficial... But in areas where most people own their houses, it has a negative effect."
+        },
+        "reasoning": "The person believes that increased housing affordability (via more housing) positively affects support for upzoning, especially in rental-heavy areas."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_669d68",
+      "question_id": "qa_006",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public transportation affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Is the effect of Public Transportation on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)?",
+          "answer": "The effect of public transportation is absolutely immediate... It would have an extremely negative effect because either they're going to have to figure out how to get a car... It's going to take so long to develop this."
+        },
+        "reasoning": "The person believes that lack of adequate public transportation immediately and strongly reduces support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_66d616",
+      "question_id": "qa_003",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does small changes in population density affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Would small changes in Population density lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, I do believe small changes would lead to noticeable changes. For example, if that population is a good, hard-working population, then it could be good for your community, meaning more trees planted, more jobs to do, more cars on the road, more houses to be built. But then it also could lead to a negative effect, meaning the people could steal, the people could try to break into your cars and take all your belongings."
+        },
+        "reasoning": "The person believes small population changes can have noticeable effects, and they lean toward a positive effect if the population is hard-working, which is the dominant tone of the response."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_010_66d616",
+      "question_id": "qa_010",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing interests between current and future residents affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Does Balancing interests between current and future residents have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that balancing interests would have a pretty positive impact for support of upzoning. I think the effect would be pretty significant, and it'd have a positive effect, that the strength would be pretty immediate, but again, I do believe that it'd be a pretty good positive balance for our future residents."
+        },
+        "reasoning": "The person believes that balancing interests between current and future residents would have a positive impact on support for upzoning, indicating a positive causal belief."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_66355f",
+      "question_id": "qa_016",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased population density affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Is the effect of Increased population density on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Population density is definitely going to have a negative effect on support. You build 10 apartment complexes, and bam, that's all in a three-mile area. Now guess what? People are living there and driving from there."
+        },
+        "reasoning": "The person believes that increased population density from new housing developments immediately and negatively affects support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_66355f",
+      "question_id": "qa_018",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community involvement affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Would small changes in Town hall participation lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It seems to make no difference. We organize, we plan, we voice our concerns... but they continue to say yes."
+        },
+        "reasoning": "The person believes that even increased community involvement has not changed support for upzoning, implying that lack of responsiveness from officials decreases trust and support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_015_677fb3",
+      "question_id": "qa_015",
+      "prolific_id": "677fb3",
+      "vqa": {
+        "id": "qa_015",
+        "prolific_id": "677fb3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does thinking about consequences affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Considering Consequences have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "considering consequences has a negative effect on support for upzoning. for those living in the proposed neighborhood the effect is strongly negative, for those living outside the neighborhood the effect is mildly positive"
+        },
+        "reasoning": "The person believes that thinking about consequences generally reduces support for building more housing, especially among nearby residents."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_677fb3",
+      "question_id": "qa_018",
+      "prolific_id": "677fb3",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "677fb3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing interests affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Does Balancing interests have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe that balancing interests will have a positive effect on support for upzoning as many people will consider it fair for all individuals involved to give a little for the good of others. the effect will be moderate"
+        },
+        "reasoning": "The person believes that considering balanced interests increases support for building more housing, with a moderate effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_6643dc",
+      "question_id": "qa_012",
+      "prolific_id": "6643dc",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "6643dc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Housing affordability have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Housing affordability is a definite positive side on upzoning. It's just about the only positive effect."
+        },
+        "reasoning": "The person clearly sees housing affordability as a strong positive influence on support for building more housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_664cf2",
+      "question_id": "qa_012",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Housing Prices have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "affordability of housing. if up zoning seemed like could make house more affordable for young people or those struggling that would definitely be a positive and a strong influence."
+        },
+        "reasoning": "The person believes that making housing more affordable through upzoning would strongly increase their support, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_017_664cf2",
+      "question_id": "qa_017",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_017",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does supporting local businesses affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "How confident are you that changes in Support for local businesses lead to changes in Support for Upzoning?",
+          "answer": "I am strongly confident that changes in my support for local businesses would lead to changes in my support. It has a positive effect."
+        },
+        "reasoning": "The person believes that helping local businesses through upzoning would increase their support, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_019_664cf2",
+      "question_id": "qa_019",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does social fairness affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q24",
+          "question": "How would you describe the relationship between Social Equity and Support for Upzoning?",
+          "answer": "Social equity has a strong positive connection to my support for upzoning. If it means a fairer town with more opportunities for everyone, I\u2019m all for it."
+        },
+        "reasoning": "The person strongly supports upzoning if it leads to a fairer society, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_020_664cf2",
+      "question_id": "qa_020",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does access to opportunities affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q25",
+          "question": "Does Access to Opportunity have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "access to opportunities has a strong positive effect on my support for up zoning. If I believe that allowing more diverse housing options... could lead to more jobs, better schools, improved public transportation, these benefit everyone in town."
+        },
+        "reasoning": "The person believes that upzoning can increase opportunities for the community, which strongly increases their support, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_016_6810e6",
+      "question_id": "qa_016",
+      "prolific_id": "6810e6",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "6810e6",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does urban density affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Urban density have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Urban density generally has a positive effect on support for upzoning, and this effect is moderate to strong because denser areas often recognize the need for more housing and infrastructure improvements."
+        },
+        "reasoning": "The person believes urban density has a moderate to strong positive effect on support for building more housing."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_660982",
+      "question_id": "qa_023",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does neighborhood activity affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Neighborhood liveliness lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I say, I'm a little confident, I mean more people, right? More variety, more lively type, something like that. You know, it's nice to have more people, right? And you know, more people, be more social. That's a good thing. But I'm still a little confident, just a little bit. I'm not really confident, it's a teeny tiny bit. How strong they are, right? It depends."
+        },
+        "reasoning": "The person associates more people and more social activity with positive outcomes, suggesting a weak positive effect of neighborhood liveliness on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_021_5e1545",
+      "question_id": "qa_021",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Higher density housing and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is a strong connection, but it represents corporate interests mostly, so I am opposed"
+        },
+        "reasoning": "The person opposes higher density housing because they associate it with corporate interests, indicating a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_5e1545",
+      "question_id": "qa_029",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building high-density buildings affect support for more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q24",
+          "question": "Does Building higher density buildings have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it makes it negative that is why people are opposing it"
+        },
+        "reasoning": "The person clearly states that building higher density buildings makes support for upzoning more negative."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_024_678967",
+      "question_id": "qa_024",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does hindsight affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A/B",
+        "source_qa": {
+          "question_number": "Q26",
+          "question": "Would small changes in Hindsight lead to noticeable changes in Support for Upzoning, or would it take larger shifts?",
+          "answer": "I think small changes would lead to noticeable changes in support for upzoning, depending on what those changes were. I think over time, it could take larger shifts. It could have a positive effect or a negative effect if larger changes were made too fast in response to smaller changes that were noticed in hindsight."
+        },
+        "reasoning": "The person believes that hindsight can lead to either positive or negative effects on support for upzoning, depending on how changes are implemented in response to observed outcomes."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A/B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_678967",
+      "question_id": "qa_026",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the effect of upzoning itself affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A/B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Is the effect of Upzoning on Support for Upzoning immediate, or does it take time to develop?",
+          "answer": "I think it takes time to develop, but it develops at a fairly rapid place, especially once upzoning begins. The effects are immediate, whether negative or positive, and not hard to see."
+        },
+        "reasoning": "The person believes that the effects of upzoning on support are immediate and can be either positive or negative, depending on outcomes."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A/B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_678967",
+      "question_id": "qa_029",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the significance of an effect affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A/B",
+        "source_qa": {
+          "question_number": "Q23",
+          "question": "Does Significant effect have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "It depends on if the effects are negative or positive, how significant they are, and whether the support for upzoning is negative or positive in response to it. I think either way, it will have a strong effect."
+        },
+        "reasoning": "The person believes that significant effects\u2014whether positive or negative\u2014strongly influence support for upzoning, indicating both possibilities."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A/B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_022_5e1553",
+      "question_id": "qa_022",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does lower housing prices affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Decrease in housing prices on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It takes time to develop. When you are making any home, it takes time and money for such projects to finish and plan out for people to then buy."
+        },
+        "reasoning": "The person implies that lower housing prices (due to more supply) will eventually increase support for building more housing, though it takes time\u2014indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_5e1553",
+      "question_id": "qa_023",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does neighborhood consistency affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Would small changes in Neighborhood consistency lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It could go either way. It depends on the neighborhood since some of them will be in better shape than others, and changes could lead to decrease or increase in quality which will lead to people moving in or out."
+        },
+        "reasoning": "The person acknowledges that changes in neighborhood consistency can lead to resistance or support, but the uncertainty and potential for negative outcomes suggests a generally negative effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_5e1553",
+      "question_id": "qa_029",
+      "prolific_id": "5e1553",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "5e1553",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing availability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Does Housing availability have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "house availability will have a positive effect of upzoning greatly because there are more people which means more customers and projects to support the community in general."
+        },
+        "reasoning": "The person clearly states that increased housing availability leads to greater support for building more housing\u2014indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_66464c",
+      "question_id": "qa_026",
+      "prolific_id": "66464c",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "66464c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does improving transportation affect people's support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Would small changes in Transportation services lead to noticeable changes in Support for Upzoning?",
+          "answer": "Small changes in transportation services shouldn't have much of an effect. Larger changes, however, might start seeing opposition for upzoning. If it comes down to people not having access to the transportation services when they're needed, people are going to naturally be upset about that."
+        },
+        "reasoning": "The person believes that poor transportation planning could lead to opposition, indicating a negative effect on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_66464c",
+      "question_id": "qa_028",
+      "prolific_id": "66464c",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "66464c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does being careful with changes affect people's support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How would you describe the relationship between Caution in making changes and Support for Upzoning?",
+          "answer": "I think the matter has to be handled with caution. The people who are already living in these neighborhoods should have some degree of say when it comes to huge changes like this. It's important to make sure that these people are clearly informed about the positives and the negatives of how upzoning is going to affect their community. A lack of communication will lead to negative feelings over these upzoning changes."
+        },
+        "reasoning": "The person believes that caution and communication increase support for upzoning, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_031_669046",
+      "question_id": "qa_031",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_031",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Would small changes in Affordability of housing lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't believe that small changes in affordability of housing would lead to noticeable changes in support for upzoning. I think that the current housing market is out of reach for a large population of people. Even the middle class can't get into the housing market. So it requires these larger shifts. And does it have a positive or negative effect? Well, I think it all depends on the changes. Is it a small affordability of housing change or a large?"
+        },
+        "reasoning": "The person believes that larger improvements in affordability would positively influence support for building more housing, indicating a positive effect when significant changes occur."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_032_669046",
+      "question_id": "qa_032",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_032",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does neighborhood development affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Is the effect of Neighborhood Development on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think the effect of neighborhood development for supporting the upzoning took quite a while to develop. I don't think it was immediate. I think current homeowners probably saw it as a negative and the question of how strong is this effect is pretty strong. People were very concerned."
+        },
+        "reasoning": "The person believes neighborhood development initially causes concern and is seen negatively by current homeowners, indicating a negative effect on support for building more housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_033_669046",
+      "question_id": "qa_033",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_033",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does urban density affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Is the effect of Urban density on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think the urban density support for upzoning is over time to develop the support. I think that there is both positive effects and negative effects. For example, we just got our first gas station on this side of town and that's a positive effect, but waiting for it was negative."
+        },
+        "reasoning": "The person acknowledges that while there are delays and frustrations, urban density over time leads to positive outcomes that support building more housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_036_669046",
+      "question_id": "qa_036",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_036",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does having four-story apartments affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Four-story apartments lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'm semi-confident that for a four-story apartment would lead to changes and support for upzoning. I think the support is coming from outside the area, not necessarily current residents. I think it has positive effect because it brings people into your neighborhood that might not necessarily be able to afford it. And there is the negative effect of traffic and congestion and resources being used. And the effect is going to be strong on both sides."
+        },
+        "reasoning": "The person believes that four-story apartments have a positive effect on support for building more housing, though with some negative side effects."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_039_669046",
+      "question_id": "qa_039",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_039",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does cultural diversity affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How would you describe the relationship between Diverse Culture and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think there is a relationship between diverse culture and support for upzoning. I think that it's important for people to recognize that that connection is strong and we need to recognize that not everyone is going to look the same or have the same economic, socioeconomic similarities, that our differences are what bring us together and the effect of that is very strong."
+        },
+        "reasoning": "The person believes that cultural diversity has a strong positive effect on support for building more housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_038_67f162",
+      "question_id": "qa_038",
+      "prolific_id": "67f162",
+      "vqa": {
+        "id": "qa_038",
+        "prolific_id": "67f162",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does urban density affect support for more housing development according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Does Urban density have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Urban density generally boosts support for upzoning. People in already dense areas are more open to it. The effect is pretty strong but other factors like traffic can still affect views."
+        },
+        "reasoning": "The person believes that urban density increases support for upzoning, indicating a positive effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_033_5f0d2a",
+      "question_id": "qa_033",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_033",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does respect for current residents affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Respect for Current Residents lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Now I would certainly suspect that if there was less respect for the current residents, then we'd have a lot more support for upzoning. Hopefully that doesn't even happen, though."
+        },
+        "reasoning": "The person believes that less respect for residents leads to more support, implying that respect for residents has a negative effect on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_034_5f0d2a",
+      "question_id": "qa_034",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_034",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the desire for peace and stability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Is the effect of Desire for peace and stability on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "This would be right away. We don't want to give up the peace and stability of the neighborhood the way it is. It would take more time to see that it isn't going to change as much as we might have thought."
+        },
+        "reasoning": "The person states that the desire for peace and stability immediately opposes upzoning, indicating a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_033_57dd18",
+      "question_id": "qa_033",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_033",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a decrease in housing supply affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "How would you describe the relationship between Decrease in housing supply and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is a strong positive effect because this is the situation we are in now. We are only talking about zoning changes because we have a severe housing shortage. Before that, no one cared or was taking about it."
+        },
+        "reasoning": "The person believes a decrease in housing supply strongly increases support for upzoning, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_036_57dd18",
+      "question_id": "qa_036",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_036",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do people at the bottom of the income scale affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Does People on the Bottom have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "People on the bottom have a strong positive effect on support for upzoning because these are the people who can't afford to buy a house. They are renters or living with their parents. They are being shut out of the American Dream and are angry about it."
+        },
+        "reasoning": "The person believes people at the bottom of the income scale strongly increase support for upzoning, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_037_57dd18",
+      "question_id": "qa_037",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_037",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do small changes in supply and demand affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Would small changes in Supply and Demand lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would take larger shifts. People only started caring when young people couldn't live on their own and couldn't afford families. That is when people only really started caring."
+        },
+        "reasoning": "The person believes small changes in supply and demand do not significantly affect support for upzoning, indicating a negative or weak effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_036_66da38",
+      "question_id": "qa_036",
+      "prolific_id": "66da38",
+      "vqa": {
+        "id": "qa_036",
+        "prolific_id": "66da38",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does future residents' interest affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Future residents' interests lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it makes a huge difference. I don't think they want to come in and upsize neighborhoods and have all the good tenants move out so that they can just get whoever move in, they'll just have a homeless neighborhood."
+        },
+        "reasoning": "The person believes that if future residents are not desirable, it negatively affects support for building more housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_034_6422f3",
+      "question_id": "qa_034",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_034",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased population affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Would small changes in Increased population lead to noticeable changes in Support for Upzoning?",
+          "answer": "Again, small changes will not have that much of a noticeable difference in the support for upzoning. I think it needs to be a huge shift in order to really have a negative effect."
+        },
+        "reasoning": "Although small population increases don't matter much, large increases are seen as potentially harmful, indicating a negative overall effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_035_6422f3",
+      "question_id": "qa_035",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_035",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does middle-income housing availability affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How confident are you that changes in Middle-income housing lead to changes in Support for Upzoning?",
+          "answer": "Middle income is not a serious threat. All the teachers, nurses and other service people are middle income. So, I think it would be a positive effect"
+        },
+        "reasoning": "The person explicitly states that middle-income housing leads to a positive effect on upzoning support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_036_6422f3",
+      "question_id": "qa_036",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_036",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does urban density affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How would you describe the relationship between Urban density and Support for Upzoning?",
+          "answer": "Urban density will have a say on the support for up zoning. Too much population , they may not be receptive to more crowding"
+        },
+        "reasoning": "The person indicates that high urban density could reduce support for upzoning due to concerns about overcrowding."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_050_6117ef",
+      "question_id": "qa_050",
+      "prolific_id": "6117ef",
+      "vqa": {
+        "id": "qa_050",
+        "prolific_id": "6117ef",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a moderate impact affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q25",
+          "question": "How confident are you that changes in Moderate impact lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I\u2019m somewhat confident moderate impacts affect support for upzoning. They tend to have a positive effect moderately increasing support."
+        },
+        "reasoning": "The person believes moderate impacts increase support for upzoning, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_045_56e60e",
+      "question_id": "qa_045",
+      "prolific_id": "56e60e",
+      "vqa": {
+        "id": "qa_045",
+        "prolific_id": "56e60e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does population growth affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Is the effect of Population increase on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect will be almost immediate in my opinion and it will have a strong negative effect as more people become affected."
+        },
+        "reasoning": "The person believes that increased population almost immediately reduces support for building more housing, indicating a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_049_56e60e",
+      "question_id": "qa_049",
+      "prolific_id": "56e60e",
+      "vqa": {
+        "id": "qa_049",
+        "prolific_id": "56e60e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does changing voting rights in zoning decisions affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "How confident are you that changes in Voting rights in zoning decisions lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't think changes in voting rights will effect support for upzoning because most people will be voting against it happening where they live."
+        },
+        "reasoning": "The person implies that voting rights don't change the outcome because people are already against building more housing, suggesting that increasing participation won't reduce support, hence a neutral or slightly positive effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_041_67e70a",
+      "question_id": "qa_041",
+      "prolific_id": "67e70a",
+      "vqa": {
+        "id": "qa_041",
+        "prolific_id": "67e70a",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing slowly affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Higher density housing lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think definitely would help for the support, you know, because, you know, we're human, we thought about that, you know, we really want to help, but not to the extent that you impact us negatively in our own life. We want to help. So if we do it slowly, then we, at least, you know, any big, any impact, at least, you know, as a minimize it to the rest of us, and we can think something else. That's an example already. You know, like we already have like 70, those, you know, high density buildings, building or being built. And now suddenly another mayor or something said, oh, we want to petition for another, you know, thing on the ballot in November, because we want to do it another way. And we want to get, you know, some tax, you know, income, and then we want to, you know, try this, you know, other way to do it. So see, people seeing it is not going to cut it. People are thinking, you know, something else, while those buildings still being built, 708 still being built."
+        },
+        "reasoning": "The person believes that a gradual approach to building more housing increases support because it minimizes negative personal impact and allows people to adjust."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_044_5a3bdd",
+      "question_id": "qa_044",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_044",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a neighborhood's character affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Positive neighborhood character have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "It has a major positive effect. If a neighborhood has a strong reputation, then there will be support for upzoning."
+        },
+        "reasoning": "The person believes that neighborhoods with strong, positive character significantly increase support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_047_5a3bdd",
+      "question_id": "qa_047",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_047",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do environmental concerns affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Does Environmental concerns have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "If people are concerned about the environment, then they will be significantly less likely to support this, because they would feel it brings a negative impact."
+        },
+        "reasoning": "The person believes that environmental concerns significantly reduce support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_046_67ab59",
+      "question_id": "qa_046",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_046",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does population density affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Is the effect of Population Density on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it takes time and positive"
+        },
+        "reasoning": "The person believes that population density has a positive effect on support for upzoning, although it takes time to manifest."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_047_67ab59",
+      "question_id": "qa_047",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_047",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does density control affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between Density control and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "they work together creating checks and balances ....positive effect and strong"
+        },
+        "reasoning": "The person believes that density control and upzoning work together and that density control has a strong positive effect on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_048_67ab59",
+      "question_id": "qa_048",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_048",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does environmental pollution affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Does Environmental pollution have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "negative effect, decreases it and strong"
+        },
+        "reasoning": "The person believes that environmental pollution reduces support for upzoning, indicating a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_052_681bdc",
+      "question_id": "qa_052",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_052",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does traffic increase affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Traffic increase lead to changes in Support for Upzoning?",
+          "answer": "Yes, it has positive effect in that the traffic increase will be on the support for upzoning and the traffic increase will bring positive economic activities within the zone."
+        },
+        "reasoning": "The person believes increased traffic has a positive effect on support for upzoning because it brings economic activity."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_053_681bdc",
+      "question_id": "qa_053",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_053",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Housing affordability have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "Yes, a great deal. Housing affordability is a major factor in influencing where one lives and in one's lifestyle because it affects the disposable income."
+        },
+        "reasoning": "The person believes housing affordability strongly influences support for upzoning because it affects where people live and their lifestyle."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_054_681bdc",
+      "question_id": "qa_054",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_054",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased traffic affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Increased traffic have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "Positive, in that I'm creating more demand and opportunities."
+        },
+        "reasoning": "The person believes increased traffic has a positive effect on support for upzoning because it creates more demand and opportunities."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_056_681bdc",
+      "question_id": "qa_056",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does population density affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between Increased Population Density and Support for Upzoning?",
+          "answer": "There's a very strong connection between increased population density and support for upzoning because yes, we are growing every single day and we need to accommodate everyone, everyone needs to be accommodated. So I'm positively supporting it and it will bring a great positive change."
+        },
+        "reasoning": "The person believes increased population density has a strong positive effect on support for upzoning because more people mean more need for housing."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_058_681bdc",
+      "question_id": "qa_058",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_058",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do small changes in zoning affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Would small changes in Zoning lead to noticeable changes in Support for Upzoning, or would it take larger shifts?",
+          "answer": "Yes, every effort counts, however small, and everything that is positive will definitely bring positive effects into the design."
+        },
+        "reasoning": "The person believes even small changes in zoning can have a positive effect on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_059_681bdc",
+      "question_id": "qa_059",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_059",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does environmental impact affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "How would you describe the relationship between Environmental Impacts and Support for Upzoning?",
+          "answer": "There's a strong connection because their process must factor in the environmental impact because the environmental actors must positively and aggressively support and protect our environment."
+        },
+        "reasoning": "The person believes environmental impact has a strong connection to support for upzoning, though the reasoning is a bit ambiguous, they imply that environmental considerations must be part of the process."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_054_67ac6e",
+      "question_id": "qa_054",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_054",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a drop in housing prices affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Is the effect of Decrease in housing prices on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it takes time to develop as people realize the change."
+        },
+        "reasoning": "The person believes that a drop in housing prices eventually leads to increased support for building more housing, though it may take time for people to recognize the benefit."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_053_66293c",
+      "question_id": "qa_053",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_053",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does middle class affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q23",
+          "question": "Does Middle class affordability have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "Middle class affordability has a positive effect. Middle class, when you say middle class, most likely you're speaking about the majority. Majority of the middle class, the people, will make a positive impact if they're for it."
+        },
+        "reasoning": "The person believes that middle class affordability has a strong positive effect on support for upzoning because the middle class represents the majority and their support would be significant."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_056_66293c",
+      "question_id": "qa_056",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic impact affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q27",
+          "question": "Does Economic Impact have a positive or negative effect on Support for Upzoning, and how significant is this effect?",
+          "answer": "The economy has a huge effect bringing in the upzoning in support of the upzoning because you're bringing in Like from what I read the upzoning you would have the first floor would be small shops that people could support small Businesses and it brings money to the community It brings the small businesses the people they shop they bring money. They need necessities This requires money which the community of the upzoning from the people living in the homes Can give to the community it is a strong positive"
+        },
+        "reasoning": "The person believes that economic impact has a strong positive effect on support for upzoning due to the benefits to small businesses and local revenue."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_059_67ad19",
+      "question_id": "qa_059",
+      "prolific_id": "67ad19",
+      "vqa": {
+        "id": "qa_059",
+        "prolific_id": "67ad19",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing different interests affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "How would you describe the relationship between Balancing interests and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "stakeholders have the responsibility to listen to both stakeholders' interests before upzonning begins to get them on board. this will have very positive impact"
+        },
+        "reasoning": "The person believes that balancing interests leads to very positive support for upzoning, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_051_67e32a",
+      "question_id": "qa_051",
+      "prolific_id": "67e32a",
+      "vqa": {
+        "id": "qa_051",
+        "prolific_id": "67e32a",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Higher density housing and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There is a strong connection between higher density housing and support for upzoning primarily because more houses is an ideal solution to the housing crisis. For those of us who think otherwise, the increased density can significantly destroy life as we know it, which translates to a strong opposition."
+        },
+        "reasoning": "The person acknowledges that building more housing generally increases support for changing zoning rules, though some oppose it due to quality of life concerns. The overall belief is that it has a strong positive effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_052_67e32a",
+      "question_id": "qa_052",
+      "prolific_id": "67e32a",
+      "vqa": {
+        "id": "qa_052",
+        "prolific_id": "67e32a",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does keeping home values stable affect support for changing zoning rules according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Home value preservation have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "As a homeowner, I strongly oppose the idea of upzoning because of my interests. My home may lose value and my neighborhood may be invaded to the point of losing its character. I can confirm that the opposition is fairly strong."
+        },
+        "reasoning": "The person believes that preserving home value decreases support for changing zoning rules, as homeowners may fear losing value and neighborhood character. The belief is that it has a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_064_666e57",
+      "question_id": "qa_064",
+      "prolific_id": "666e57",
+      "vqa": {
+        "id": "qa_064",
+        "prolific_id": "666e57",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does living close to work affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How confident are you that changes in Living close to work lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I\u2019d say I\u2019m pretty confident that living close to work has a positive effect on support for upzoning it usually increases it. People like the idea of shorter commutes, so if upzoning means more housing near jobs, that\u2019s a big plus. The effect is generally moderate to strong, especially in cities where traffic and commute times are a pain. So yeah, it\u2019s a solid factor that tends to boost support."
+        },
+        "reasoning": "The person believes living close to work increases support for building more housing, with a moderate to strong effect. This indicates a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_070_666e57",
+      "question_id": "qa_070",
+      "prolific_id": "666e57",
+      "vqa": {
+        "id": "qa_070",
+        "prolific_id": "666e57",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do local shops affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Does Local Shops have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Local shops usually have a positive effect on support for upzoning they tend to increase it. People like the idea of more shops and amenities close by, which makes neighborhoods more convenient and lively. The effect is generally moderate it\u2019s a nice bonus that can sway some folks, but probably not a huge dealbreaker compared to things like affordability or traffic."
+        },
+        "reasoning": "The person believes local shops increase support for building more housing, though the effect is moderate. This indicates a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_582c71",
+      "question_id": "qa_005",
+      "prolific_id": "582c71",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "582c71",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does reducing traffic congestion affect support for allowing more housing in cities?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How would you describe the relationship between Transportation congestion and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think transportation congestion decreases support for upzoning. Everybody hates traffic or sitting in traffic, congestion. I think it's a strong connection and it would have a negative impact, but it's hard to know how strong this effect is because that's dependent on where these buildings are placed and how bad the traffic would be. So I can't really give an answer on that of how strong the effect is if I've never seen it."
+        },
+        "reasoning": "The speaker directly states that traffic congestion 'decreases support for upzoning' and calls it a 'strong connection' with a 'negative impact,' even though they express uncertainty about the exact strength."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_67e32b",
+      "question_id": "qa_001",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does living near dense housing affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "How would you describe the relationship between Positive effect of living near density and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There is a strong and positive relationship between the positive experience of living near density and support for upzoning, as familiarity often reduces opposition and increases perceived benefits."
+        },
+        "reasoning": "The person explicitly states there is a 'strong and positive relationship' between positive experiences of living near density and support for upzoning, indicating a belief in a positive effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_003_67e32b",
+      "question_id": "qa_003",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does land value affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Land value on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of land value on support for upzoning is ypically indirect and develops over time, as risng land values can increase pressure for redmevelopment"
+        },
+        "reasoning": "Although indirect and gradual, the person believes rising land values create pressure for redevelopment, which implies increased support for upzoning\u2014indicating a positive long-term effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_004_67e32b",
+      "question_id": "qa_004",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does new development affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Is the effect of New development on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it can have a negative effect, especially if the development is perceived to cause congestion, displacement, or loss of neighborhood character."
+        },
+        "reasoning": "The person clearly states that new development 'can have a negative effect' due to concerns like congestion and displacement, showing a belief in a negative impact on public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_67e32b",
+      "question_id": "qa_006",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does regulating housing development affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Would small changes in Regulating housing development lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "i think it would enhance it even the more as more peope are getting wiser and want to only work towards the future"
+        },
+        "reasoning": "The person believes better regulation will 'enhance' support, suggesting a positive effect based on growing public awareness and forward-thinking attitudes."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_67e32b",
+      "question_id": "qa_008",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does population density affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How would you describe the relationship between Population density and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "i think a very string connection without upzoning people won't know the effect of thier ripple advantaes and this could have only be achievable by upzoning"
+        },
+        "reasoning": "Despite unclear phrasing, the speaker emphasizes a 'very strong connection' and suggests upzoning enables positive ripple effects tied to density, indicating a belief in a positive relationship."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_67e32b",
+      "question_id": "qa_009",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does avoiding long-term harms affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Is the effect of Avoiding long-term harms on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It generally has a positive but modest effect, as long-term benefits are less motivating than immediate neighborhood impacts."
+        },
+        "reasoning": "The person describes the effect as 'positive but modest,' clearly indicating a belief in a small positive influence of long-term thinking on support for upzoning."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_001_675de3",
+      "question_id": "qa_001",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Opposition to upzoning and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't find any relationship with that at all. I mean, one is very much a good thing and the other one is very much a bad thing. I'm not saying that creating housing is a bad thing, but creating apartments inside of neighborhoods is very negative."
+        },
+        "reasoning": "The person clearly associates building apartments in neighborhoods with negative outcomes, indicating that more housing development decreases support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_007_675de3",
+      "question_id": "qa_007",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does adding multi-family housing affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Multi-family housing lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'm assuming this is meaning that if these buildings are added, what I support, what I support it. So, this is a negative effect. It's a very strong effect. Just the fact that they would build the buildings is all I would need to not be for this."
+        },
+        "reasoning": "The person explicitly states that the mere addition of multi-family buildings causes strong opposition\u2014clearly a negative causal belief."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_675de3",
+      "question_id": "qa_008",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does cheaper affordable housing affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Would small changes in Affordable housing lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Exactly, if all the housing gets cheaper, that decreases all the value around it. This is not a positive effect. This is most likely a very strong effect. It might take a little while, but still very strong."
+        },
+        "reasoning": "Lower housing prices due to affordable housing are seen as damaging to property values and neighborhood appeal, leading to decreased support\u2014negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_009_675de3",
+      "question_id": "qa_009",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does neighborhood quality affect support for upzoning according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Does Neighborhood quality have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Well, assuming the neighborhood was nice to begin with, then yes, adding all of these people and cars and buildings is going to be a very negative effect, at least on the people that already live there. The people that move in might like it, but it would be a very strong effect."
+        },
+        "reasoning": "The speaker believes that upzoning harms existing neighborhood quality, which strongly reduces support among current residents\u2014clearly a negative impact."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_005_664504",
+      "question_id": "qa_005",
+      "prolific_id": "664504",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "664504",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the price of housing affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Does Price reduction have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Price reduction doesn't bother me. I just pay more when things go up. I don't have a preference for cost. Pay what you pay."
+        },
+        "reasoning": "While the speaker is personally indifferent, they do not deny that lower prices might influence others positively. The lack of opposition and neutral framing suggests an implicit acceptance that lower prices could increase support, even if they themselves are unaffected."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_002_669425",
+      "question_id": "qa_002",
+      "prolific_id": "669425",
+      "vqa": {
+        "id": "qa_002",
+        "prolific_id": "669425",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do property values affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Would small changes in Property values lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think if you could show that upzoning has a positive change, a positive effect on property values, people would be a lot more likely to support it."
+        },
+        "reasoning": "The speaker clearly states that if upzoning increases property values, support will increase\u2014indicating a belief in a positive causal relationship."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_008_664ec4",
+      "question_id": "qa_008",
+      "prolific_id": "664ec4",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "664ec4",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased traffic congestion affect support for allowing more housing construction?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Traffic congestion lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It'll have a strong effect of it, negatively, it'll negatively affect it because people don't want traffic congestion in the big cities and increased housing will cause that."
+        },
+        "reasoning": "The speaker clearly states traffic congestion will negatively affect support for upzoning, believing people oppose more housing if it brings traffic\u2014a direct negative causal belief."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_006_5a4f6c",
+      "question_id": "qa_006",
+      "prolific_id": "5a4f6c",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "5a4f6c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does having more single-family neighborhoods affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Single-family neighborhoods and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe that the relationship between single-family neighborhoods and support for upzoning there's probably a weak connection considering that single-family single-family neighborhoods are prone and used to being single-family neighborhoods and It will probably have negative effect On the discussion for support and upzoning because the support would be less than Neighborhoods that have been known to have apartment complexes or multifamily home homes in the neighborhood. This effect is Probably gonna be a pretty big effect considering that the Homeowners will think their home value may decrease and and thus would have less support for support support for upzoning"
+        },
+        "reasoning": "The person believes single-family neighborhoods lead to less support for upzoning because homeowners fear losing property value, indicating a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_011_5a4f6c",
+      "question_id": "qa_011",
+      "prolific_id": "5a4f6c",
+      "vqa": {
+        "id": "qa_011",
+        "prolific_id": "5a4f6c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does changing multi-family housing affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How confident are you that changes in Multi-family housing lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Changes in multifamily housing leads to changes in support for upzoning and that it will probably be depending on depending on if the business is supported a positive effect and Single-family homes probably it would probably have a negative effect and the effects are for the single-family homeowners It's a strong effect on this for the business or the business owners in the neighborhood or near the neighborhood. It's probably a very small effect"
+        },
+        "reasoning": "Although mixed, the dominant belief expressed is that changes in multi-family housing reduce support among single-family homeowners\u2014a key group\u2014and the speaker emphasizes this negative effect as strong, outweighing the minor positive effect on businesses."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_5a4f6c",
+      "question_id": "qa_012",
+      "prolific_id": "5a4f6c",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "5a4f6c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do multi-family homes affect support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q23",
+          "question": "Does Multifamily homes have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, what the family homes have a positive and negative effect on support for upzoning for It's significant effect upon the next significant significant negative effect upon the single-family home property owners, and it's probably a positive effect of Small Minuscule Strength For the bit the business positive effect of minuscule strength for the business owners in the area"
+        },
+        "reasoning": "The speaker again highlights a significant negative effect on single-family homeowners, while any positive effect on businesses is described as 'minuscule', confirming an overall negative perception."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_014_5a4f6c",
+      "question_id": "qa_014",
+      "prolific_id": "5a4f6c",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "5a4f6c",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a strong effect influence support for building more housing?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q26",
+          "question": "How confident are you that changes in Strong Effect lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The strong effect leading to changes in support for upzoning, it would be probably a negative effect and it's probably strong."
+        },
+        "reasoning": "Even though 'Strong Effect' is abstract, the speaker interprets it as a negative force reducing support for upzoning and confirms both direction and magnitude as negative and strong."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_678f0b",
+      "question_id": "qa_012",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does opposition to change affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Opposition to change have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is positive for current home owners if they can shield their cities from planned crowding"
+        },
+        "reasoning": "The person suggests that existing homeowners benefit from resisting upzoning, implying that opposition to change increases their support for blocking new development\u2014so resistance has a positive effect on maintaining low support for building more housing."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_678f0b",
+      "question_id": "qa_018",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does utility capacity affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Is the effect of Utilities on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Takes plenty of time money and planning"
+        },
+        "reasoning": "The emphasis on time, cost, and planning implies that inadequate utility readiness creates barriers and public skepticism, leading to lower support\u2014indicating a negative effect when utilities lag behind development."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_019_678f0b",
+      "question_id": "qa_019",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do positive economic events affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "How would you describe the relationship between Positive economic events and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Any short term positive economic events will be short lived"
+        },
+        "reasoning": "By dismissing positive economic events as temporary, the person downplays any lasting boost to support, implying these events don\u2019t significantly increase\u2014or sustain\u2014support for building more housing, hence a negative or negligible influence."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_015_670f61",
+      "question_id": "qa_015",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_015",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does quality of life improvements affect support for building more housing units according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How confident are you that changes in Quality of life lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think you don't understand. There really isn't a better quality of life to upzoning. It's really just a monetary reason to do upzoning. There's, it doesn't make a city better. It's just for the reasons of wanting more money and wanting to add more housing, you upzone. It has very little overall positive effect unless you properly adjust the transportation issue."
+        },
+        "reasoning": "The person clearly states that upzoning does not improve quality of life and calls its benefits minimal, indicating a belief that perceived quality-of-life outcomes negatively influence support unless paired with infrastructure fixes."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_670f61",
+      "question_id": "qa_018",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does creating construction jobs affect support for allowing more housing developments according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "How would you describe the relationship between Jobs and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It has a slight increase in construction jobs, but in terms of overall jobs, I don't think it solves the problem. You're just moving people to be housed in different areas of the city, but then you're not generating any more income. So I think overall, it's kind of a negative impact with regards to jobs."
+        },
+        "reasoning": "While acknowledging short-term construction jobs, the speaker believes upzoning doesn\u2019t create meaningful long-term employment and may even have a 'negative impact'\u2014suggesting job outcomes reduce support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_020_670f61",
+      "question_id": "qa_020",
+      "prolific_id": "670f61",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "670f61",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing community and developer interests affect support for allowing more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q24",
+          "question": "Is the effect of Balancing interests on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I really don't think there's a good balance of interest when it comes to support for upzoning. It's really comes down to money. And once there's enough money involved, regardless of what people have to say, it's just going to happen. And so overall, even though there's positives about adding more housing, which might bring more money in, there's a huge negative effect because there's not enough to support the upzoning development."
+        },
+        "reasoning": "The speaker believes that true balance is absent and that decisions favor developers over communities, leading to resentment and reduced legitimacy\u2014implying imbalance has a negative effect on genuine public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_012_5d093f",
+      "question_id": "qa_012",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_012",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for allowing more housing in cities according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Housing affordability on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Housing affordability should be a quick help as people will be able to quickly find homes. Currently, they may be out of their budget and may just be waiting for prices to drop. They should immediately jump on the opportunities, so effects should be seen fairly quickly. It has a strong positive effect because the community should prosper more."
+        },
+        "reasoning": "The person clearly states that improved affordability leads to immediate public benefits and increased prosperity, which would boost support\u2014indicating a strong positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_5d093f",
+      "question_id": "qa_013",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does lower housing prices affect support for allowing more housing in cities according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Lower housing prices on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Could take time to develop. Developers are making a big investment and will start off at a loss. They spend tons of money on these projects and would like to see the fruits of their labor pay off. They will want as many units open as possible as this will increase their rent. With a lot of units, the money should start to add up."
+        },
+        "reasoning": "Though the timeline is delayed, the speaker implies that lower prices (via more units) will eventually benefit developers and, by extension, make upzoning more acceptable\u2014indicating an indirect but expected positive effect over time."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_014_5d093f",
+      "question_id": "qa_014",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does neighborhood character affect support for allowing more housing in cities according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "How would you describe the relationship between Neighborhood character and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Neighborhood character is one of the reasons in favor of upzoning. It only improves the community, as it adds to the diversity. It's a strong connection as it makes the areas more lively and vibrant. This means more parks, restaurants, businesses, buildings, etc. so it is a strong positive effect."
+        },
+        "reasoning": "The person explicitly frames neighborhood character as improved by upzoning, leading to vibrancy and amenities, and calls it a 'strong positive effect'\u2014clearly indicating a belief in a positive causal link."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_018_5d093f",
+      "question_id": "qa_018",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the local economy affect support for allowing more housing in cities according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Is the effect of Local economy on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Will take time to develop as people need to move in first and get acclimated. But should be a strong positive effect as more people means more customers which means more money for businesses. They would love this."
+        },
+        "reasoning": "The person believes economic growth from increased population will benefit businesses and generate broad support over time\u2014clearly indicating a positive causal belief despite the delay."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_020_5d093f",
+      "question_id": "qa_020",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do disadvantaged groups affect support for allowing more housing in cities according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q26",
+          "question": "Is the effect of Disadvantaged groups on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Immediate. They have less money and are currently priced out of the market. If things became more affordable, they could jump at the opportunity. So definitely a strong positive effect there."
+        },
+        "reasoning": "The speaker sees disadvantaged groups as key beneficiaries of affordable housing, whose immediate ability to access homes would drive strong support\u2014indicating a clear positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_011_56e967",
+      "question_id": "qa_011",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_011",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Does Housing affordability have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "100 percent.   The only reason for this is for affordable homes.    If you check zillow or other rental platforms, there are tons of homes for rent, but they arent always affordable in any way.   Lets add some competition and see those prices go down."
+        },
+        "reasoning": "The person strongly links housing affordability to support for upzoning, saying the 'only reason' for supporting more housing is to make homes affordable. They believe lack of affordability drives support for building more housing, indicating a positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_013_56e967",
+      "question_id": "qa_013",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the cost of living affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q24",
+          "question": "How would you describe the relationship between Cost of living and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There's a huge relationship. Cost of living has went up. It's, that is what it is. Gas, food prices, electricity, everything has went up. And with that, the housing costs as well, but the wages do not. However, the solutions to not increase the wages, every time there's a wage increase, there's also a shift and things costing more because now companies have to pay more for this and more for that. Stop raising the wages and just lower the cost of living."
+        },
+        "reasoning": "The person sees high cost of living\u2014especially housing\u2014as a key driver for change. They argue we should 'lower the cost of living' instead of raising wages, implying that rising costs create pressure to build more housing, showing a positive causal link in their mind."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_019_669180",
+      "question_id": "qa_019",
+      "prolific_id": "669180",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "669180",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does focusing on future needs instead of current ones affect support for building tall buildings according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "Is the effect of Balance between current and future residents on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't think it's even going to be possible to consider too far into the future when it comes to increasing, building very tall buildings. And this is because of all the changes that would be needed to do it. So I think it's more of a present, maybe near future, but you know, as far as looking way into the future, things could change quite a bit. So it's all going to depend on what the needs are. So without knowing what the future needs will be, I think it would be probably negative increasing it because it's going to be too much of a burden on the people that are here now."
+        },
+        "reasoning": "The speaker believes planning for distant future residents creates a 'burden' on current ones, leading to likely negative reactions, hence viewing this balance as reducing support for upzoning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_020_669180",
+      "question_id": "qa_020",
+      "prolific_id": "669180",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "669180",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does doing things slowly and gradually affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q24",
+          "question": "How would you describe the relationship between Time to develop housing affordability effects and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's going to take time to develop it even if it's really needed. If housing is really needed, it probably would take less time. They probably would make decisions a little faster. If it's affordable, it's going to happen faster. There's also going to maybe be a shortage of workers, you know, skilled workers, so that might slow it down. So I don't think it's something that's done quickly is going to be difficult and it's going to be a weak connection. Something that is done slower is going to be much stronger."
+        },
+        "reasoning": "The speaker contrasts quick action (seen as difficult and weakly connected to success) with slower development (described as 'much stronger'), indicating a belief that gradual implementation increases public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_021_660cda",
+      "question_id": "qa_021",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does building more housing in residential neighborhoods affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Is the effect of Residential neighborhoods on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, I think the effect would be, you know, pretty immediate. I mean, as soon as they start building, you know, it's bound to have an effect. I think overall the effect would be negative and I think it would be substantially negative."
+        },
+        "reasoning": "The person believes that building more housing in residential neighborhoods leads to a negative effect on support for upzoning, describing it as 'substantially negative.'"
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_660cda",
+      "question_id": "qa_025",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does giving residents final say over housing rules affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Is the effect of Final say-so on housing regulation on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I would say the effect of final say-so on housing regulation would be pretty immediate. I don't think it would take that much time to develop at all. I would say it would have an overall negative effect as well, and I think the effect would be pretty strong."
+        },
+        "reasoning": "The person believes that allowing residents final say leads to lower support for upzoning, with a 'pretty strong' negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_026_660cda",
+      "question_id": "qa_026",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do zoning decisions affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How would you describe the relationship between Zoning decisions and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I would describe this relationship as a hand in hand relationship. I think there is a strong connection. I think that the zoning decisions made will ultimately align with the support for upzoning. It has a positive effect. It is a very strong effect."
+        },
+        "reasoning": "The person sees a 'very strong' positive feedback loop: support influences zoning decisions, and those decisions reinforce support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_660cda",
+      "question_id": "qa_028",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do changes in what residents think affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Influence of resident opinions lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'm not very confident in that at all I think um I mean I think he could kind of go both ways you may have some people that you know change their opinion and it becomes somewhat positive but I think overall changes in the residents opinions will end up being more negative and it would be a lack of support and I think the effect is pretty strong"
+        },
+        "reasoning": "Despite uncertainty, the person concludes that shifting resident opinions tend to reduce support, with a 'pretty strong' negative outcome overall."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_68c19d",
+      "question_id": "qa_023",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Housing affordability on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think the effect of housing affordability will take a little bit of time for more support for upzoning. It would have a positive effect on people to give them more opportunities to live in a place that they can thrive in."
+        },
+        "reasoning": "The speaker clearly states that housing affordability has a 'positive effect' on support for upzoning, even if it takes time to manifest."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_027_68c19d",
+      "question_id": "qa_027",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the sewage system affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between Sewage system and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe it's definitely important to consider the effects of the sewage system when considering support for upzoning. I think there's a strong connection there and as long as everything is in proper working order then there should be a positive effect otherwise it could have a detrimental effect and I believe this effect could be very strong in considering whether upzoning would be feasible in that city."
+        },
+        "reasoning": "The speaker believes a functioning sewage system enables support for building more housing, while failure would hurt it. The implied causal direction is that adequate infrastructure positively affects support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_68c19d",
+      "question_id": "qa_028",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do local businesses affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Would small changes in Local businesses lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "When considering local businesses I think even a small change would be positive in support for upzoning because the more people there are living in the city, the more products and services are needed to fulfill their everyday needs so it only makes sense for local businesses to benefit from this change."
+        },
+        "reasoning": "The speaker sees local business growth as beneficial to upzoning support because more residents mean more customers. This indicates a belief in a positive effect of thriving local businesses on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_68c19d",
+      "question_id": "qa_029",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing interests affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Is the effect of Balancing interests on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it would take some time to develop balancing the interests of current and future residents because everyone needs to be kept in mind when making drastic change. There could be a positive effect for some people, like having affordable housing, and a negative effect for others, such as traffic congestion and more noise."
+        },
+        "reasoning": "Despite acknowledging trade-offs, the speaker implies that successfully balancing interests leads to broader acceptance over time, suggesting a net positive effect on support when done well."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_024_6483fd",
+      "question_id": "qa_024",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does traffic congestion affect support for allowing more housing in neighborhoods according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Would small changes in Traffic congestion lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think small changes in congestion could be a positive for support for upzoning. I think larger shifts would help as well, but I think small changes would definitely help if they would do more with easing traffic congestion. I think it would have a positive effect. I don't know how strong, if it was just a small change, I would say that the larger the change, the larger positive effect would be."
+        },
+        "reasoning": "The person believes that reducing traffic congestion\u2014even slightly\u2014would positively influence support for upzoning, with larger improvements having a stronger effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_025_6483fd",
+      "question_id": "qa_025",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does an increase in population affect support for allowing more housing in neighborhoods according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Would small changes in More people lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think small changes in the amount of people would make a difference and it would probably be a negative difference. There's already a lot of complaint in this area about the amount of people that move here and how our infrastructure already can't support it. As I mentioned earlier, potholes and traffic congestion. I would say it would be a strong negative effect for a lot of the population."
+        },
+        "reasoning": "The person states that even small increases in population would negatively affect support for upzoning due to strain on infrastructure, calling it a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_6483fd",
+      "question_id": "qa_028",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do town hall meetings affect support for allowing more housing in neighborhoods according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "Does Town hall meetings have a positive or negative effect on Support for Upzoning, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think having town hall meetings is a good idea. I don't know that it would positively affect support for upzoning. I'm afraid that people would go to town hall meetings and, you know, say they've already had enough. There's already too many people here. So I would say it is a good thing for people's voices to be heard, but I'm afraid it would be a negative for support of upzoning."
+        },
+        "reasoning": "Although the person values public input, they express concern that town hall meetings would likely result in opposition to upzoning due to complaints about overcrowding, leading to a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_029_6483fd",
+      "question_id": "qa_029",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the time it takes to build new housing affect support for allowing more housing in neighborhoods according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q23",
+          "question": "How confident are you that changes in Time to develop housing options lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I guess if it was done slowly and they could show what they were also doing to improve traffic and parking and all the other, I can't, all the other problems for support for upzoning, I think that could help if people could see that they will do it in stages maybe and show what they are doing to help with all the negative impacts of upzoning."
+        },
+        "reasoning": "The person suggests that a slower, phased development process\u2014accompanied by mitigation of negative side effects\u2014could help maintain or improve support, indicating a belief that managing development time positively influences public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_021_58014d",
+      "question_id": "qa_021",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does opposition to building more housing affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Opposition to upzoning on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It tends to take time unless an agreement in its favor is reached just about immediately. It has a positive effect as far as I've been able to tell, as I've highlighted above many times."
+        },
+        "reasoning": "The person explicitly states that opposition to upzoning has a 'positive effect' on support for upzoning, meaning when people oppose it, support increases\u2014possibly due to backlash or solidarity."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_027_58014d",
+      "question_id": "qa_027",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does preventing housing development affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "Is the effect of Preventing housing development on Support for Upzoning immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It depends on how fast it's implemented. It has a positive effect in terms of keeping things roughly where they are rather than resulting in more dog-eat-dog chaos, which corporate politicians are happy to pay as a price for their income increasing."
+        },
+        "reasoning": "The speaker says preventing development has a 'positive effect' on support for upzoning, possibly implying that halting chaotic development builds public trust or stability that supports future planning."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_58014d",
+      "question_id": "qa_028",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do economic benefits from development affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q21",
+          "question": "How would you describe the relationship between Economic benefits and Support for Upzoning? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It's strong but negative due to reasons I've given. The bottom line for profiteers is going to be what pays the best, and they'll sell their principles out instantly if they have any in the first place."
+        },
+        "reasoning": "Despite calling the connection 'strong,' the person says it's 'negative,' arguing that economic motives corrupt support and undermine genuine community interest."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_030_58014d",
+      "question_id": "qa_030",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_030",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does social equity affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q23",
+          "question": "Would small changes in Social equity lead to noticeable changes in Support for Upzoning, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Negative effect here, positive in more progressive communities. The effect's powerful since social issues are given far more attention to the media and people in general than economic/environmental ones--and wrongly so."
+        },
+        "reasoning": "The speaker explicitly states there is a 'negative effect here' (in their local context), meaning discussions around social equity currently reduce support for upzoning in their view."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\": \"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_023_673021",
+      "question_id": "qa_023",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much does housing affordability affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "How confident are you that changes in Housing affordability lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Changes in housing affordability might or might not lead to changes in support depending on people's goal. Some care about housing affordability that affect other people. Some care about their own families and benefits. It's a positive impact on the support although the effect can be quite weak"
+        },
+        "reasoning": "The person acknowledges that worsening affordability could increase support for building more housing, but only weakly, as personal interests often outweigh broader societal concerns."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "text_response"
+    },
+    {
+      "question_anchor": "qa_028_60d54e",
+      "question_id": "qa_028",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "zoning",
+        "task_type": "belief_attribution",
+        "task_question": "How much do urban areas affect support for building more housing according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Urban areas lead to changes in Support for Upzoning? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it's a pretty strong effect negatively. I think that no positives come from adding urban buildings to suburban areas. I think if you're in an urban area and you wanna add more housing or multifamily units, that's fine. Urban infrastructure is made to withstand that."
+        },
+        "reasoning": "The speaker distinguishes between urban and suburban contexts, arguing that introducing urban-style development into suburban areas has a strong negative impact on support. Since the context likely refers to suburban zones, the overall belief is that such changes reduce support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\": \"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "text_response"
+    }
+  ]
+}

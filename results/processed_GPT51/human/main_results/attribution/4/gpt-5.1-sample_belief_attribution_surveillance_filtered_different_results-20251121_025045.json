@@ -1,0 +1,3691 @@
+{
+  "timestamp": "2025-11-21 02:50:45",
+  "model": "gpt-5.1",
+  "benchmark_path": "54UsersQ/sample_belief_attribution_surveillance_filtered_different_results.jsonl",
+  "temperature": 0.1,
+  "include_demographics": true,
+  "include_context": true,
+  "swap_experiment": false,
+  "overall_metrics": {
+    "total_questions": 122,
+    "correct_answers": 91,
+    "overall_accuracy": 0.7459016393442623,
+    "overall_mae": null,
+    "overall_mse": null
+  },
+  "group_results": {
+    "long": {
+      "total": 122,
+      "correct": 91,
+      "accuracy": 0.7459016393442623,
+      "answers": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "mae": null,
+      "mse": null,
+      "absolute_errors": [],
+      "signed_errors": []
+    }
+  },
+  "all_question_details": [
+    {
+      "question_anchor": "qa_006_6738f2",
+      "question_id": "qa_006",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does surveillance policy affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How confident are you that changes in Surveillance policy lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Um, I think it can lead to changes in support if, um, the surveillance policy is clearly defined and can be, the effect can, the effect can be strong. And again, a positive or negative effect depends on whether you are in favor of that surveillance policy or not."
+        },
+        "reasoning": "The person believes that clearly defined surveillance policies can strongly increase support, indicating a positive effect when people are in favor."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_007_6738f2",
+      "question_id": "qa_007",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does equal treatment affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Equal Treatment lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It can lead to big changes if you are part of a group who thinks that you are not receiving equal treatment and its effects can be strong. Again, whether it is positive or negative depends on whether you view equal treatment as an important factor."
+        },
+        "reasoning": "The person implies that perceived equal treatment can strongly increase support, especially among those who value fairness."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_008_6738f2",
+      "question_id": "qa_008",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does surveillance technology affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Is the effect of Surveillance technology on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, it can be immediate or take a long time to develop depending on whether people think the surveillance technology is reliable or not."
+        },
+        "reasoning": "The person indicates that belief in the reliability of surveillance technology can strongly influence support, implying a positive effect when reliability is perceived."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_009_6738f2",
+      "question_id": "qa_009",
+      "prolific_id": "6738f2",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "6738f2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Would small changes in Positive effect of trust lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It can lead to noticeable changes in support for surveillance technology if there is an increase in trust and its effect can be strong. Again, it depends if it's positive or negative depending on where you are on the side of having increased trust or not."
+        },
+        "reasoning": "The person states that increased trust can lead to noticeable and strong increases in support for surveillance technology, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_001_679ff3",
+      "question_id": "qa_001",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does experiencing crime without cameras affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "How would you describe the relationship between Surveillance cameras in public spaces and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "the support for surveillance camera in public spaces has a strong positive effect because many people has experienced some bad stuff due to lack of surveillance"
+        },
+        "reasoning": "The person believes that the lack of surveillance (leading to bad experiences) increases support for cameras, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_003_679ff3",
+      "question_id": "qa_003",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_003",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does knowing you're being watched affect your behavior?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Is the effect of Shaping behavior through surveillance on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "i didn't say effect of shaping behavior, i mean surveillance camera can help in shaping behavior because when you know there is a surveillance you will be conscious of your act"
+        },
+        "reasoning": "The person believes that awareness of being watched leads to more conscious behavior, which supports the use of surveillance, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_006_679ff3",
+      "question_id": "qa_006",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does being self-conscious affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Self-consciousness and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it's a strong connection and it has a strong effects because u will conscious when you realize there's a surveillance camera where you are"
+        },
+        "reasoning": "The person believes that surveillance increases self-awareness, which in turn increases support, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_009_679ff3",
+      "question_id": "qa_009",
+      "prolific_id": "679ff3",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "679ff3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does individual privacy affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How would you describe the relationship between Individual privacy and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "individual privacy has a strong effect, you don't invade someone's privacy because it might leak and if that happens it's against the law"
+        },
+        "reasoning": "The person believes that violating individual privacy through surveillance is harmful and could reduce support, indicating a strong negative effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_006_58a1fe",
+      "question_id": "qa_006",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does law enforcement accountability affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Law Enforcement Accountability have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Law enforcement accountability also is something extremely important for surveillance cameras. If people feel that law enforcement is going to be held accountable then they will trust law enforcement and they will trust the surveillance cameras. If law enforcement is not held accountable people aren't going to trust them so they won't trust surveillance cameras."
+        },
+        "reasoning": "The person believes that greater law enforcement accountability increases trust in surveillance cameras, leading to more support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_009_58a1fe",
+      "question_id": "qa_009",
+      "prolific_id": "58a1fe",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "58a1fe",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the development of effects over time affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Would small changes in Effect development over time lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Definitely small changes in effect development over time would lead to some noticeable changes in support for surveillance cameras because of course it would take time but this would be because if people don't see that it's beneficial they're not going to support surveillance cameras."
+        },
+        "reasoning": "The person believes that as people observe the effects of surveillance cameras over time, their support increases\u2014indicating a positive effect of perceived effectiveness over time."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_005_64275e",
+      "question_id": "qa_005",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does privacy focus affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Focus on privacy have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It has both. If they can't guarantee cameras won't leak out personal info, then there will be low support. If they can guarantee security of data is tight, then support will be strong."
+        },
+        "reasoning": "The person believes that increased focus on privacy can reduce support for cameras unless data security is guaranteed, indicating a negative effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_006_64275e",
+      "question_id": "qa_006",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does camera accuracy affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Accuracy and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Of course it has a strong relationship. The more efficient a camera is in capturing the images of the criminals, the easier the cops can catch them, which then proves that the cameras are efficient and so support will grow."
+        },
+        "reasoning": "The person believes that higher camera accuracy leads to greater public support, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_008_64275e",
+      "question_id": "qa_008",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing law enforcement and privacy affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Balance Between Law Enforcement and Privacy Advocates lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "People worry about privacy, and so if that worry gets washed away by a guarantee that their privacy is safe, support will grow."
+        },
+        "reasoning": "The person believes that achieving a better balance between law enforcement and privacy concerns will increase support for cameras, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_009_64275e",
+      "question_id": "qa_009",
+      "prolific_id": "64275e",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "64275e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does data privacy affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Would small changes in Support for surveillance cameras lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The only changes necessary are data privacy related, as long as no info leaks, it'll be good."
+        },
+        "reasoning": "The person implies that maintaining data privacy is essential for maintaining or increasing support for cameras, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_004_669d68",
+      "question_id": "qa_004",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does law enforcement reform affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How would you describe the relationship between Dismantling and rebuilding law enforcement and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If law enforcement were less corrupt and more trustworthy... then yes, definitely it would be easier for people to accept them as enforcing surveillance... it would be a net positive if the laws of law enforcement were reformed."
+        },
+        "reasoning": "The person believes that reforming law enforcement would increase support for surveillance cameras, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_008_669d68",
+      "question_id": "qa_008",
+      "prolific_id": "669d68",
+      "vqa": {
+        "id": "qa_008",
+        "prolific_id": "669d68",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in law enforcement affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Is the effect of Trust Issues on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't fully understand what this question means, like trust issues for what? For the surveillance or for the people in charge, for law enforcement or for the government?"
+        },
+        "reasoning": "Although the person didn't directly answer, their confusion implies that trust in law enforcement is a key factor, and based on other answers, it's likely seen as a negative effect if trust is low."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_004_66d616",
+      "question_id": "qa_004",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_004",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does reliability affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Reliability and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "So, I do believe that the relationship between reliability and support is a very strong connection and a positive effect, because I do believe that, again, it's a very, very good thing to have in your community, and it's a very strong effect, but then it could also lead to, you know, crime rates down a lot, it could lead to more criminals being captured as well."
+        },
+        "reasoning": "The person believes reliability has a strong and positive effect on support for cameras, citing benefits like reduced crime and better criminal capture."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_005_66d616",
+      "question_id": "qa_005",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_005",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does law enforcement access to footage affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Does Law enforcement access to camera footage have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I do believe that the local law enforcement having access to your camera footage is positive because I do believe that that is their job and duty is to fulfill our community and make them safer and I do believe that that's a very, very positive effect and it's a good strong effect."
+        },
+        "reasoning": "The person clearly states that law enforcement access has a very positive and strong effect on support for cameras, linking it to community safety and duty."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_007_66d616",
+      "question_id": "qa_007",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does local law enforcement involvement affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q19",
+          "question": "How confident are you that changes in Local law enforcement involvement lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe that the changes in local law enforcement will lead to a positive effect and the changes in the surveillance camera support would just be the fact that they can catch a lot more people and the effect of that is very strong."
+        },
+        "reasoning": "The person believes local law enforcement involvement leads to a positive effect on camera support, due to increased ability to catch criminals."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_010_66d616",
+      "question_id": "qa_010",
+      "prolific_id": "66d616",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "66d616",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does people feeling unsafe affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How would you describe the relationship between People feeling unsafe and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe that that is a pretty weak connection because I do believe that people should not be feeling unsafe For surveillance cameras because one they're in public places and two they're to help your community to make it safer So I do believe that that's a pretty weak connection between them I do believe it's a positive effect though because it makes your community safer and it drops your crime rate. It makes criminals Be a lot more sad Destrumental I would say I guess but then also makes a lot more room for cops to To catch those criminals, so it's a very strong effect"
+        },
+        "reasoning": "Although the person says the connection is weak, they still believe that reducing feelings of unsafety has a positive effect on camera support due to increased safety and crime reduction."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_011_66355f",
+      "question_id": "qa_011",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_011",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does feeling watched affect support for cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How confident are you that changes in Feeling of Being Watched lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Depending on where these cameras are placed, I don't think feeling like you're being watched would really be that significant, but without an example, I can't know that, but I would say if you felt like you're being watched everywhere, that would probably decrease your support for surveillance. It would be a negative effect, medium strength maybe. Overall, I think we would just ignore they were there."
+        },
+        "reasoning": "The person states that feeling watched everywhere would likely decrease support for surveillance, indicating a negative effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_016_66355f",
+      "question_id": "qa_016",
+      "prolific_id": "66355f",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "66355f",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does tax funding affect support for cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Tax-funded lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I guess if people don't notice it coming out of their pockets because it was like crowd tax funded that would probably increase support. You know it's one thing if they say hey we're gonna pass another local sales tax and this is gonna fund us surveilling you people are going to say no to that but if they aren't aware that they're paying for it because it's coming out of taxes they already pay they'll support it."
+        },
+        "reasoning": "The person believes that if people don't notice the cost, tax funding would increase support for surveillance cameras."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_018_677fb3",
+      "question_id": "qa_018",
+      "prolific_id": "677fb3",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "677fb3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of surveillance systems affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Reliability lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "fairly confident it has a moderate positive effect"
+        },
+        "reasoning": "The person believes that more reliable surveillance systems moderately increase support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_020_677fb3",
+      "question_id": "qa_020",
+      "prolific_id": "677fb3",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "677fb3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do surveillance policies affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Does surveillance policies have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "they have a moderate negative effect"
+        },
+        "reasoning": "The person believes that current surveillance policies moderately reduce public support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_014_6643dc",
+      "question_id": "qa_014",
+      "prolific_id": "6643dc",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "6643dc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the perception of being watched affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Perception of being watched have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Perception of being watched has a negative effect on support for surveillance camera. It's the one thing that deters me because nobody wants to feel like they're being watched all the time."
+        },
+        "reasoning": "The person clearly states that the perception of being watched has a negative effect on support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_016_558acd",
+      "question_id": "qa_016",
+      "prolific_id": "558acd",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "558acd",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of cameras affect public support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Reliability on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think overall it could be somewhat immediate if people are seeing that the surveillance cameras are reliable and they're doing what they are supposed to do then there could definitely be a positive change, a positive effect and it would be fairly strong."
+        },
+        "reasoning": "The person believes that if cameras are seen as reliable, support increases positively and fairly strongly, and this can happen quickly."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_014_664cf2",
+      "question_id": "qa_014",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does independent review affect support for installing cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Would small changes in Independent evaluations lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "yes, even small changea and what independent people say would lead to noticeable changes in my support being more supportive"
+        },
+        "reasoning": "The person believes even small independent evaluations can noticeably increase support, showing a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_015_664cf2",
+      "question_id": "qa_015",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_015",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does accuracy affect support for installing cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Is the effect of Accuracy on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of accuracy on support for surveillance camera is immediate for me! if the cameras provide a high track record for accuracy This would lead to a positive effect. Increasing my support."
+        },
+        "reasoning": "The person states that accuracy has an immediate and positive effect on their support for cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_018_664cf2",
+      "question_id": "qa_018",
+      "prolific_id": "664cf2",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "664cf2",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does transparency affect support for installing cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "How confident are you that changes in Transparency lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Transparency has a very strong positive effect on my support. I feel like the more open the town is the more OK I will be with it..."
+        },
+        "reasoning": "The person believes transparency strongly increases their support for cameras, showing a strong positive effect."
+      },
+      "generated_answer": null,
+      "generated_response": null,
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "error"
+    },
+    {
+      "question_anchor": "qa_019_6810e6",
+      "question_id": "qa_019",
+      "prolific_id": "6810e6",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "6810e6",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Does Community trust have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Community trust has a positive effect on support for surveillance cameras, with a moderate to moderately strong impact increasing support."
+        },
+        "reasoning": "The person believes that higher community trust increases support for surveillance cameras, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_020_6810e6",
+      "question_id": "qa_020",
+      "prolific_id": "6810e6",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "6810e6",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does reliability affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Reliability and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Reliability has a positive effect on support for surveillance cameras with a moderately strong connection increasing support."
+        },
+        "reasoning": "The person believes that greater reliability increases support for surveillance cameras, indicating a positive effect."
+      },
+      "generated_answer": null,
+      "generated_response": null,
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "error"
+    },
+    {
+      "question_anchor": "qa_021_660982",
+      "question_id": "qa_021",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_021",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does 24/7 camera monitoring affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q6",
+          "question": "Is the effect of Monitoring public areas 24/7 on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it's immediate. I mean, I don't think it'll take time to develop. Like, yeah, it's already a thing. I think that has a positive effect too. Like, it's recording 24-7. You know, that's good."
+        },
+        "reasoning": "The person believes 24/7 monitoring has an immediate and positive effect on support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_024_660982",
+      "question_id": "qa_024",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does control over sensitive camera footage affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Control over sensitive footage have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I mean, yeah, I know I want to see like something really bad like something really illegal I think that should be only for like the the specialized people that know how to like, you know, what?"
+        },
+        "reasoning": "The person implies that proper control of footage by specialized people is important and likely supports increased public confidence in surveillance systems."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_025_660982",
+      "question_id": "qa_025",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does having surveillance cameras affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Surveillance Cameras have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yeah, positive effect. Yeah, really strong, cause like, it's a camera."
+        },
+        "reasoning": "The person clearly believes that the presence of surveillance cameras directly increases support for them, and considers the effect very strong."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_029_660982",
+      "question_id": "qa_029",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased security affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q22",
+          "question": "How would you describe the relationship between Increased security and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'd say that it's pretty strong, because, you know, without cameras, there's no security. You need both of them to have a safe environment, and I think that it's positive, and it's pretty strong too."
+        },
+        "reasoning": "The person clearly sees a strong positive relationship between increased security and support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_030_660982",
+      "question_id": "qa_030",
+      "prolific_id": "660982",
+      "vqa": {
+        "id": "qa_030",
+        "prolific_id": "660982",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does having specialized access to camera footage affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "Is the effect of Specialized access on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I guess develop, cause like you need people who be in the specialized axis probably... the skill fact isn't really that strong."
+        },
+        "reasoning": "The person believes that specialized access requires time to develop and that the skill factor isn't very strong, implying a weak or negative effect on public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_027_5e1545",
+      "question_id": "qa_027",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a 'us vs them' mentality affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Us vs Them Mentality have a positive or negative effect on Support for surveillance camera, and how significant is this effect?",
+          "answer": "Negative effect, since that is exactly what it is and we know it now"
+        },
+        "reasoning": "The person explicitly states a negative effect of 'us vs them' mentality on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_029_5e1545",
+      "question_id": "qa_029",
+      "prolific_id": "5e1545",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "5e1545",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community involvement affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How would you describe the relationship between community involvement and Support for surveillance camera? Is it a strong or weak connection?",
+          "answer": "It is integral, this is what is missing currently"
+        },
+        "reasoning": "The person believes community involvement is essential and would likely increase support if present, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_024_678967",
+      "question_id": "qa_024",
+      "prolific_id": "678967",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "678967",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased monitoring affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Increased monitoring and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Increased monitoring and support for surveillance cameras are one in the same. I guess they would have a positive effect on each other, it's the same thing."
+        },
+        "reasoning": "The person equates increased monitoring with support for surveillance cameras, implying a positive relationship."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_024_669046",
+      "question_id": "qa_024",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust in police affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Community trust in police lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think small changes in community trust in police could lead to noticeable changes in support for surveillance cameras, but one needs to happen long before the other. The community doesn't trust police because police are humans and humans have bias and stereotype and prejudice. So I think that's where the surveillance cameras come in. Not only are they looking at civilians, but they're also watching law enforcement."
+        },
+        "reasoning": "The person believes that increased trust in police leads to greater support for surveillance cameras, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_025_669046",
+      "question_id": "qa_025",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do surveillance technologies affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Surveillance technologies and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it's a strong connection between surveillance technologies and support for surveillance cameras. I think that it would be a positive effect and it's a very strong effect."
+        },
+        "reasoning": "The person believes that the development and presence of surveillance technologies strongly increases support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_030_669046",
+      "question_id": "qa_030",
+      "prolific_id": "669046",
+      "vqa": {
+        "id": "qa_030",
+        "prolific_id": "669046",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public expectation of privacy affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q18",
+          "question": "How confident are you that changes in Public Expectation of Privacy lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I'm not confident that changes in public expectation of privacy would lead to changes in support of the surveillance cameras. I personally have no expectation of privacy when I'm in public, but I think other people do. And I think that the effect, whether that be positive or negative, is dependent on where those cameras are placed."
+        },
+        "reasoning": "Although the person is not fully confident, they imply that higher public expectation of privacy likely leads to decreased support for surveillance cameras."
+      },
+      "generated_answer": null,
+      "generated_response": null,
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "error"
+    },
+    {
+      "question_anchor": "qa_035_5f0d2a",
+      "question_id": "qa_035",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_035",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in the police affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Negative perception of police lead to noticeable changes in Support for surveillance camera?",
+          "answer": "When trust of the police is already so low, just a small change could result in a noticeable drop in the support."
+        },
+        "reasoning": "The person believes that trust in the police is already low, and even small decreases would further reduce support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_037_5f0d2a",
+      "question_id": "qa_037",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_037",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the accuracy of surveillance systems affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Accuracy of surveillance systems and Support for surveillance camera?",
+          "answer": "Well you better believe it, if they're inaccurate, the support will drop way off."
+        },
+        "reasoning": "The person believes that inaccuracy in surveillance systems would significantly reduce public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_040_5f0d2a",
+      "question_id": "qa_040",
+      "prolific_id": "5f0d2a",
+      "vqa": {
+        "id": "qa_040",
+        "prolific_id": "5f0d2a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does wearing a mask affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Wearing a mask have a positive or negative effect on Support for surveillance camera?",
+          "answer": "Well, as someone who wears one all the time when going out in public, I already said that I think it, for me, makes me support it less, and I think it would for others as well."
+        },
+        "reasoning": "The person believes that wearing a mask leads to less support for surveillance cameras, indicating a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_031_57dd18",
+      "question_id": "qa_031",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_031",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does installing more surveillance cameras affect public support for them?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "How confident are you that changes in Surveillance cameras in public spaces lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It strongly increases support because once you do it, people become used to it and don't think it is a big deal."
+        },
+        "reasoning": "The person believes that installing more cameras leads to habituation, which in turn strongly increases public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_035_57dd18",
+      "question_id": "qa_035",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_035",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the feeling of constant surveillance affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Feeling of constant surveillance lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would have a strong positive impact of increasing support for surveillance because you'll get used to it and think it is now big deal to accept more of it."
+        },
+        "reasoning": "The person believes that increased awareness of being watched leads to habituation and thus increased support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_038_57dd18",
+      "question_id": "qa_038",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_038",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does surveillance policy affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Surveillance Policy on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is strongly positive and immediate. Almost anyone can put up a camera and point it anywhere even at someone's house and no one can do anything about it so people will just accept it."
+        },
+        "reasoning": "The person believes that existing surveillance policies strongly and immediately increase public support due to normalization and lack of regulation."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_039_57dd18",
+      "question_id": "qa_039",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_039",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does minority targeting affect public support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Minority Targeting have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It has a weak negative effect as the minorities themselves won't like it and liberals won't either."
+        },
+        "reasoning": "The person believes that targeting minorities slightly decreases support for surveillance cameras, particularly among affected communities and liberal groups."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_040_57dd18",
+      "question_id": "qa_040",
+      "prolific_id": "57dd18",
+      "vqa": {
+        "id": "qa_040",
+        "prolific_id": "57dd18",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does an immediate public reaction to an event affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "How confident are you that changes in Immediate effect lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is probably strongly positive because if something happens, someone has to do 'something' against 'those people' so people will throw out civil liberties to feel safe."
+        },
+        "reasoning": "The person believes that in response to immediate events, public support for surveillance increases significantly as people prioritize safety over civil liberties."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_043_6422f3",
+      "question_id": "qa_043",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing good and bad outcomes affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Is the effect of Balancing good and bad on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is immediate in cases when the outcome is positive"
+        },
+        "reasoning": "The person believes that when outcomes are positive, it immediately increases support for surveillance, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_047_6422f3",
+      "question_id": "qa_047",
+      "prolific_id": "6422f3",
+      "vqa": {
+        "id": "qa_047",
+        "prolific_id": "6422f3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do racial stereotypes affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Racial Stereotypes have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Its likely to be negative predominantly. Racial profiling and discrimination will cause fear"
+        },
+        "reasoning": "The person believes that racial profiling and stereotypes associated with surveillance lead to fear and reduce public support, indicating a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_041_5d92ac",
+      "question_id": "qa_041",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_041",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does racial bias affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Does Racial bias have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Very negative strong effect. It will lead to more imprisonments without due process simply because you were caught on tape at the scene of a crime at the time surrounding a crime."
+        },
+        "reasoning": "The person clearly states that racial bias has a very negative effect on support for surveillance cameras, as it leads to unjust outcomes."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_042_5d92ac",
+      "question_id": "qa_042",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_042",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in law enforcement affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How confident are you that changes in Trust in Law Enforcement lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Very confident. I have seen how ineffective the police are in my city and it greatly has diminished my support for surveillance. I do not trust them with more information."
+        },
+        "reasoning": "The person believes that higher trust in law enforcement would increase support for surveillance cameras, and their lack of trust is reducing support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_043_5d92ac",
+      "question_id": "qa_043",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the effectiveness of police affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How confident are you that changes in Effectiveness of police lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Very confident. If we trusted the police we could trust them to use surveillance justly. But we cannot."
+        },
+        "reasoning": "The person believes that more effective and trustworthy police would lead to greater support for surveillance, indicating a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_046_5d92ac",
+      "question_id": "qa_046",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_046",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in local government affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in City officials lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Very confident. I have seen how ineffective local government can be and it greatly has diminished my support for surveillance. I do not trust them with more information."
+        },
+        "reasoning": "The person implies that if trust in city officials (local government) improved, support for surveillance would also increase, indicating a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_048_5d92ac",
+      "question_id": "qa_048",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_048",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do privacy advocates affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Privacy Advocates lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would take larger shifts to help privacy advocates have a chance as the government and these technology companies want to exploit our privacy and they have tons of money to be able to get it done."
+        },
+        "reasoning": "Although the person believes change would require large shifts, they imply that privacy advocates would reduce support for surveillance, indicating a positive effect of their influence on reducing support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_049_5d92ac",
+      "question_id": "qa_049",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_049",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How confident are you that changes in Community trust lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think community trust can play a difference depending on how big or small the community is."
+        },
+        "reasoning": "The person acknowledges that community trust plays a role, suggesting that higher trust would lead to higher support, indicating a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_050_5d92ac",
+      "question_id": "qa_050",
+      "prolific_id": "5d92ac",
+      "vqa": {
+        "id": "qa_050",
+        "prolific_id": "5d92ac",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the immediate perception of law enforcement affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Is the effect of Negative effect on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is immediate as most people in the community already have a perception of local law enforcement and their actions"
+        },
+        "reasoning": "The person states that the negative perception of law enforcement leads to immediate negative support for surveillance, indicating a strong negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_047_6117ef",
+      "question_id": "qa_047",
+      "prolific_id": "6117ef",
+      "vqa": {
+        "id": "qa_047",
+        "prolific_id": "6117ef",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does transparency affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Would small changes in Transparency lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Small changes in transparency can lead to noticeable increases in support for surveillance cameras. The effect is positive and moderately strong."
+        },
+        "reasoning": "The person believes that even small increases in transparency lead to noticeable increases in support, indicating a positive and moderately strong effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_048_6117ef",
+      "question_id": "qa_048",
+      "prolific_id": "6117ef",
+      "vqa": {
+        "id": "qa_048",
+        "prolific_id": "6117ef",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does surveillance technology oversight affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Surveillance technology oversight lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I\u2019m quite confident that better oversight of surveillance technology increases support for cameras. The effect is positive and fairly strong."
+        },
+        "reasoning": "The person is quite confident that better oversight leads to more support, and describes the effect as positive and fairly strong."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_043_56e60e",
+      "question_id": "qa_043",
+      "prolific_id": "56e60e",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "56e60e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public safety affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How confident are you that changes in Public Safety lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Changes in public safety lead to changes in support for surveillance when public safety is negatively impacted for example by rising gun crime."
+        },
+        "reasoning": "The person believes that if public safety worsens (e.g., more crime), support for surveillance cameras increases."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_050_56e60e",
+      "question_id": "qa_050",
+      "prolific_id": "56e60e",
+      "vqa": {
+        "id": "qa_050",
+        "prolific_id": "56e60e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do surveillance systems affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Does Surveillance systems have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Surveillance systems clearly have a negative effect on support for surveillance cameras because no one wants to be monitored 24/7."
+        },
+        "reasoning": "The person believes that the existence of surveillance systems reduces support for cameras because people do not want constant monitoring."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_050_67e70a",
+      "question_id": "qa_050",
+      "prolific_id": "67e70a",
+      "vqa": {
+        "id": "qa_050",
+        "prolific_id": "67e70a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does time affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Is the effect of Time Factor on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would take a little bit of time and it's not really that long, maybe one or two months, three months, six months, you know."
+        },
+        "reasoning": "The person believes that over time, support for surveillance cameras increases, though not immediately."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_043_5a3bdd",
+      "question_id": "qa_043",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_043",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do lower crime rates affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Is the effect of Crime Rates on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "This is a potential good area for surveillance. Bringing crime rates down through this technology would make people a lot more willing to welcome it."
+        },
+        "reasoning": "The person believes that reducing crime through surveillance would significantly increase public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_045_5a3bdd",
+      "question_id": "qa_045",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_045",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does fear of being watched affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Fear of being watched on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is immediate. People do not like to be watched, the fear would be immediately noticeable through public backlash."
+        },
+        "reasoning": "The person believes that fear of surveillance has an immediate and strong negative impact on public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_047_5a3bdd",
+      "question_id": "qa_047",
+      "prolific_id": "5a3bdd",
+      "vqa": {
+        "id": "qa_047",
+        "prolific_id": "5a3bdd",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in agencies affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q20",
+          "question": "Is the effect of Distrust in agencies on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It is immediate, because people already do not trust governing agencies, so more distrust would be immediately felt in a very negative way."
+        },
+        "reasoning": "The person believes that distrust in government agencies immediately and strongly reduces support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_052_67ab59",
+      "question_id": "qa_052",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_052",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does data protection affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Does Data protection have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "it does, positive effect and strong"
+        },
+        "reasoning": "The person believes data protection has a strong positive effect on support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_053_67ab59",
+      "question_id": "qa_053",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_053",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of cameras affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Reliability and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "they work together , strong , positive effect and strong"
+        },
+        "reasoning": "The person sees a strong connection between reliability and support, with reliability having a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_055_67ab59",
+      "question_id": "qa_055",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_055",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does surveillance policy affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How would you describe the relationship between Surveillance policy and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "they two much work together, one will lead to the other, positve and strong"
+        },
+        "reasoning": "The person sees a strong causal relationship where surveillance policy strongly increases support for cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_056_67ab59",
+      "question_id": "qa_056",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do level playing field considerations affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Level Ground have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "positive effect and the significance is much, increase it and strong"
+        },
+        "reasoning": "The person believes that ensuring a level playing field significantly increases support for surveillance cameras, with a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_058_67ab59",
+      "question_id": "qa_058",
+      "prolific_id": "67ab59",
+      "vqa": {
+        "id": "qa_058",
+        "prolific_id": "67ab59",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a significant impact affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How confident are you that changes in Significant impact lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "very confident, positive effect and strong"
+        },
+        "reasoning": "The person is very confident that a significant impact leads to a strong increase in support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_053_681bdc",
+      "question_id": "qa_053",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_053",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "How confident are you that changes in Community Trust lead to changes in Support for surveillance camera?",
+          "answer": "I strongly believe so. Once the community believes that the data will not be misused and the data privacy and the protection is enhanced, they will try the system and they will comply."
+        },
+        "reasoning": "The person links increased community trust (due to better privacy protections) directly to greater compliance and support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_054_681bdc",
+      "question_id": "qa_054",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_054",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does control over information affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Control Over Information and Support for surveillance camera?",
+          "answer": "Strongly related, the data must be, there has to be control of information, and so that will, that is when there will be a lot of support. If it is not controlled, then there will be a lot of pushbacks."
+        },
+        "reasoning": "The person states that control over information is strongly related to support, and that lack of control leads to pushback, indicating a strong positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_055_681bdc",
+      "question_id": "qa_055",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_055",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does data privacy affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "Would small changes in Data Privacy lead to noticeable changes in Support for surveillance camera, or would it take larger shifts?",
+          "answer": "A policy will take a larger shift depending on what the policy is. The more the public and the communities are assured of the letter of protection, and the privacy of protection, that they can trust, they'll embrace the system and comply."
+        },
+        "reasoning": "The person believes that stronger data privacy assurances lead to greater public trust and support for surveillance systems."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_056_681bdc",
+      "question_id": "qa_056",
+      "prolific_id": "681bdc",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "681bdc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does respect for individuals affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q15",
+          "question": "Does Respect for Individuals have a positive or negative effect on Support for surveillance camera, and how significant is this effect?",
+          "answer": "Yes, respect for the individual. Yes, it does."
+        },
+        "reasoning": "The person affirms that respect for individuals positively affects support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_051_67ac6e",
+      "question_id": "qa_051",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_051",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does a small drop in crime rates affect public support for installing cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Would small changes in Crime reduction lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think small drops in crime might help a little, but people probably need to see bigger changes to really care."
+        },
+        "reasoning": "The person believes small drops in crime have a minor positive effect but are not enough to significantly increase support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_052_67ac6e",
+      "question_id": "qa_052",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_052",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does how taxpayer money is used affect public support for installing cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Is the effect of Use of taxpayer dollars on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think it takes time for people to react to how tax money is used. If they think cameras are a waste of money, it has a negative effect on support."
+        },
+        "reasoning": "The person believes that if people see cameras as a waste of taxpayer money, it reduces support over time."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_060_67ac6e",
+      "question_id": "qa_060",
+      "prolific_id": "67ac6e",
+      "vqa": {
+        "id": "qa_060",
+        "prolific_id": "67ac6e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do small changes in the number of cameras in public areas affect public support for them?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Would small changes in Cameras in public areas lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Small changes in how many cameras are in public probably won\u2019t change support much."
+        },
+        "reasoning": "The person believes that small changes in the number of cameras don\u2019t significantly affect support, implying that more visible changes are needed for a positive impact."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_051_66293c",
+      "question_id": "qa_051",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_051",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does showing crime data from a few cameras affect public support for surveillance?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q6",
+          "question": "Would small changes in Deterring theft lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I do believe that small changes, implementing a few cameras in a few areas of the town, of the community, and showing the people how even in the small area, bringing forward data, showing that the decrease in crime or the actual conviction of the crime in the area, all these data assets and putting all that into a chart or what may be and bringing it to the people would show how important and how good of a system it is. So I think that small steps, a few cameras, bringing in more cameras after that, building the system which would build the trust in the people."
+        },
+        "reasoning": "The person believes that showing crime data from a few cameras increases public trust and support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_053_66293c",
+      "question_id": "qa_053",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_053",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does fixing data misinterpretation affect public support for surveillance?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Would small changes in Misinterpretation of Data lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Yes, working out any glitches of any misconstrued data and showing that it's been fixed or if there was a problem and showing how easily it is to adjust it to make it better. These are positive and strong positives."
+        },
+        "reasoning": "The person believes that resolving data misinterpretation significantly increases public support for surveillance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_056_66293c",
+      "question_id": "qa_056",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the security of surveillance systems affect public support?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Security of surveillance systems on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I believe both. I believe it can be an immediate, if you make small changes with just a few cameras, and that would build the trust. So it would take time, but there can be immediate trust because as soon as the camera's installed, you have boom, you have security. Instant security."
+        },
+        "reasoning": "The person believes that the security provided by surveillance systems increases public support, both immediately and over time."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_057_66293c",
+      "question_id": "qa_057",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_057",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do strong security measures affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Does Strong security measures have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Strong security measures have a positive effect and a huge positive effect. The whole point is for the security and the strong security to protect the community."
+        },
+        "reasoning": "The person believes that strong security measures significantly increase support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_058_66293c",
+      "question_id": "qa_058",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_058",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of surveillance tech affect public support?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Reliability of surveillance technology lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I am very confident that if it is proven that the reliability of this surveillance technology is there, then absolutely huge impact and it would make it even a stronger, positive and supportive surveillance capability."
+        },
+        "reasoning": "The person is very confident that increased reliability of surveillance tech leads to higher public support."
+      },
+      "generated_answer": null,
+      "generated_response": null,
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "error"
+    },
+    {
+      "question_anchor": "qa_059_66293c",
+      "question_id": "qa_059",
+      "prolific_id": "66293c",
+      "vqa": {
+        "id": "qa_059",
+        "prolific_id": "66293c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do economic benefits affect support for surveillance cameras?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Positive economic effects have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "positive economic effects of people bringing their businesses because they feel more secure and You know, it may even lower insurance rates because you're protected From robbery and so forth. So yes, I believe it has a huge impact for support positive support for surveillance surveillance cameras"
+        },
+        "reasoning": "The person believes that economic benefits like business growth and lower insurance rates increase support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_054_5f85bc",
+      "question_id": "qa_054",
+      "prolific_id": "5f85bc",
+      "vqa": {
+        "id": "qa_054",
+        "prolific_id": "5f85bc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does feeling watched affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Feeling watched have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Feeling watched has a negative effect on support for surveillance cameras, decreasing it. This effect can be moderately strong since many people dislike the loss of privacy and constant monitoring."
+        },
+        "reasoning": "The person believes that feeling watched decreases support for surveillance due to privacy concerns, indicating a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_055_5f85bc",
+      "question_id": "qa_055",
+      "prolific_id": "5f85bc",
+      "vqa": {
+        "id": "qa_055",
+        "prolific_id": "5f85bc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does police accountability affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Police accountability and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Police accountability has a strong, positive effect on support for surveillance cameras. When people trust that cameras will hold police accountable, they are more likely to support their use."
+        },
+        "reasoning": "The person sees a strong, positive link between police accountability and public support for surveillance cameras."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_056_5f85bc",
+      "question_id": "qa_056",
+      "prolific_id": "5f85bc",
+      "vqa": {
+        "id": "qa_056",
+        "prolific_id": "5f85bc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does better privacy protection affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How confident are you that changes in Privacy protection lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I\u2019m quite confident that better privacy protection leads to increased support for surveillance cameras. It has a positive effect that is moderately strong because people feel safer using these systems when their privacy is respected."
+        },
+        "reasoning": "The person believes that stronger privacy protections increase public support for surveillance cameras, showing a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_059_5f85bc",
+      "question_id": "qa_059",
+      "prolific_id": "5f85bc",
+      "vqa": {
+        "id": "qa_059",
+        "prolific_id": "5f85bc",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do strict limits on surveillance affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How would you describe the relationship between Strict limits on surveillance and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Strict limits on surveillance have a moderately strong positive effect on support for surveillance cameras. People tend to support cameras more when they trust that clear rules protect privacy and prevent misuse."
+        },
+        "reasoning": "The person believes that imposing strict limits on surveillance increases public support for cameras, indicating a positive relationship."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_066_67e32a",
+      "question_id": "qa_066",
+      "prolific_id": "67e32a",
+      "vqa": {
+        "id": "qa_066",
+        "prolific_id": "67e32a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does preventing abuse of surveillance systems affect support for cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Is the effect of Prevent abuse on Support for surveillance camera immediate, or does it take time to develop?",
+          "answer": "Preventing abuse builds more confidence in CCTVs, but the support is gradual. People believe more in this technology when they are reassured that no one can manipulate it. The effect here is strong."
+        },
+        "reasoning": "The person believes that ensuring cameras are not abused increases public confidence and support over time, with a strong effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_067_67e32a",
+      "question_id": "qa_067",
+      "prolific_id": "67e32a",
+      "vqa": {
+        "id": "qa_067",
+        "prolific_id": "67e32a",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of cameras affect support for their use according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "Is the effect of Reliability on Support for surveillance camera immediate, or does it take time to develop?",
+          "answer": "The effect here is strong and immediate because public trust increases when this technology is capable of collecting accurate and dependable footage. Definitely positive effect."
+        },
+        "reasoning": "The person believes that reliable cameras immediately increase public trust and support, describing the effect as strong and immediate."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_064_666e57",
+      "question_id": "qa_064",
+      "prolific_id": "666e57",
+      "vqa": {
+        "id": "qa_064",
+        "prolific_id": "666e57",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the reliability of surveillance systems affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Reliability on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of reliability on support for surveillance cameras is usually pretty immediate\u2014if the system works well, people tend to support it more right away. So, it has a positive effect (increasing support), and the effect is moderate to strong because people want tech they can trust."
+        },
+        "reasoning": "The person states that reliable systems lead to immediate increases in support, showing a positive relationship between reliability and support."
+      },
+      "generated_answer": null,
+      "generated_response": null,
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "error"
+    },
+    {
+      "question_anchor": "qa_067_666e57",
+      "question_id": "qa_067",
+      "prolific_id": "666e57",
+      "vqa": {
+        "id": "qa_067",
+        "prolific_id": "666e57",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does increased oversight affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Is the effect of Oversight on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The effect of oversight on support for surveillance cameras usually takes time to develop because people need to see consistent transparency and accountability. It has a positive effect\u2014better oversight tends to increase support. The strength of this effect is moderate to strong, especially in communities concerned about privacy and fairness."
+        },
+        "reasoning": "The person believes that better oversight leads to increased support over time, indicating a positive effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_001_67e32b",
+      "question_id": "qa_001",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does criminal activity affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Would small changes in Criminal activity lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "i think they all adds up"
+        },
+        "reasoning": "The phrase 'they all adds up' suggests that increases in criminal activity contribute cumulatively to greater support for cameras, implying a positive effect as more crime leads people to favor surveillance."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_007_67e32b",
+      "question_id": "qa_007",
+      "prolific_id": "67e32b",
+      "vqa": {
+        "id": "qa_007",
+        "prolific_id": "67e32b",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do covert motives affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Covert motives and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "for me it is a string connect. Covert moves are best done in the background and using the surveillance camera could prove very pivotal"
+        },
+        "reasoning": "The speaker sees covert operations as enhanced by surveillance, suggesting that belief in such uses strengthens support\u2014implying a positive effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_002_675de3",
+      "question_id": "qa_002",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_002",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does public safety affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How confident are you that changes in Public safety lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If I live in an area that has enough crime or enough issues that they need cameras everywhere, I'm going to move away."
+        },
+        "reasoning": "Instead of supporting cameras when public safety declines, the person chooses to avoid the situation entirely by moving, implying they do not support cameras even when crime is high\u2014thus seeing poor public safety as reinforcing opposition."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_006_675de3",
+      "question_id": "qa_006",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Community trust lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't think this would have much of an effect. I don't think any community wants government-run cameras anywhere near their houses especially. This would be very negative, very strong."
+        },
+        "reasoning": "Even though trust level may not vary much, the person assumes universal distrust of government cameras, resulting in a uniformly strong negative view regardless of trust levels."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_009_675de3",
+      "question_id": "qa_009",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_009",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does legal framework affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Legal framework for surveillance and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I mean, I think this is a weak connection. I don't think whether it's legal or not has anything to do with whether people would support it or not because illegality is going to be set up by the government and the people are going to be the ones that support or don't support it."
+        },
+        "reasoning": "Although the connection is seen as weak, the implication is that legality doesn\u2019t increase support\u2014people still oppose it regardless. Thus, the legal framework has no positive influence, aligning with a negative overall perception."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_010_675de3",
+      "question_id": "qa_010",
+      "prolific_id": "675de3",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "675de3",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does social equity affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "Is the effect of Social equity on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I don't think it would change social equity in any way. Everybody's being filmed. I guess you're only going to catch the people that are doing something, so there's something to be said for that. This would be a very negative effect. Probably not that strong of an effect."
+        },
+        "reasoning": "Despite acknowledging some enforcement fairness, the person ultimately views the impact on social equity as negative, albeit less strong\u2014still falling under a net negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_006_664504",
+      "question_id": "qa_006",
+      "prolific_id": "664504",
+      "vqa": {
+        "id": "qa_006",
+        "prolific_id": "664504",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does community trust affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Community trust have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that's negative as well. People want to be trusted and feel like they have free will."
+        },
+        "reasoning": "The person says the effect is 'negative' and explains that people value being trusted and having autonomy, meaning lower trust (or its erosion) reduces support\u2014indicating a negative causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_010_669425",
+      "question_id": "qa_010",
+      "prolific_id": "669425",
+      "vqa": {
+        "id": "qa_010",
+        "prolific_id": "669425",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does allocating resources to schools and housing affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "How confident are you that changes in Allocation of resources to schools and housing lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think that changes in resource allocation and for schools and housing would definitely affect support negatively. People are probably going to want to put money towards education and housing more willingly than they are to want to put it towards surveillance cameras."
+        },
+        "reasoning": "The speaker believes that prioritizing funding for schools and housing reduces support for spending on cameras, calling it a 'definitely' negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_001_664ec4",
+      "question_id": "qa_001",
+      "prolific_id": "664ec4",
+      "vqa": {
+        "id": "qa_001",
+        "prolific_id": "664ec4",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does installing cameras affect people's support for surveillance according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q5",
+          "question": "Would small changes in Surveillance cameras in public spaces lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It would depend on the changes, but in general I think people against surveillance are going to be against it no matter what, especially since it's hard to roll it back and because it violates American values such as freedom."
+        },
+        "reasoning": "The person believes that expanding surveillance (installing more cameras) goes against freedom and that opposition is deeply held, indicating a negative effect on public support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_013_5a4f6c",
+      "question_id": "qa_013",
+      "prolific_id": "5a4f6c",
+      "vqa": {
+        "id": "qa_013",
+        "prolific_id": "5a4f6c",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do crime rates affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "How would you describe the relationship between Crime rates and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The relationship between crime rates and support for surveillance cameras is probably a negative correlation and it is probably a strong connection and crime rates go down and support goes up so it increases the support and it's probably a strong effect."
+        },
+        "reasoning": "The person describes a negative correlation: when crime rates go down, support goes up. This means higher crime leads to more support, so crime has a negative effect on support (i.e., lower crime reduces support)."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_015_678f0b",
+      "question_id": "qa_015",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_015",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does protecting citizens' rights affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How confident are you that changes in Citizens' rights and freedoms lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "invasion of privacy will lead to an end to surveillance systems"
+        },
+        "reasoning": "The person links failure to protect rights (via privacy invasion) directly to the collapse of support\u2014clearly a negative effect when rights are violated."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_016_678f0b",
+      "question_id": "qa_016",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does spending on technology affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Investment in technology lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "If privacy concerns are not addressed then regardless to the size of Investment in technology it will not have a positive effect on support for surveillance camera systems"
+        },
+        "reasoning": "The person dismisses investment impact unless privacy is handled\u2014implying that without trust, tech spending has no positive effect, indirectly showing a negative outcome if mismanaged."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_018_678f0b",
+      "question_id": "qa_018",
+      "prolific_id": "678f0b",
+      "vqa": {
+        "id": "qa_018",
+        "prolific_id": "678f0b",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does balancing police needs and personal privacy affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Balancing law enforcement and privacy interests on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Balancing law enforcement and privacy interests on Support for surveillance camera would be immediate as the effects will quickly indicate if the investment has had positive or not effect on the community"
+        },
+        "reasoning": "The person expects immediate positive feedback when balance is achieved\u2014indicating a belief in a positive, timely effect from proper balance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_019_5d093f",
+      "question_id": "qa_019",
+      "prolific_id": "5d093f",
+      "vqa": {
+        "id": "qa_019",
+        "prolific_id": "5d093f",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does transparency in how data is collected affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "Is the effect of Data collection transparency on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It takes a lot of time and is definitely negative. Companies try to find all kinds of loopholes and cannot be trusted to act with integrity there."
+        },
+        "reasoning": "Despite taking time, the person believes lack of trustworthy transparency leads to negative support, implying a negative long-term causal effect."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_014_56e967",
+      "question_id": "qa_014",
+      "prolific_id": "56e967",
+      "vqa": {
+        "id": "qa_014",
+        "prolific_id": "56e967",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does reducing wrongful accusations affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "How would you describe the relationship between Reducing wrongful accusations and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "This is massive. I do feel like, you know, if a crime happens and they're like, oh, it's a Mexican male, you know, wearing a black shirt. Well, hell, there's probably 50 of those running around. But now we see the face. It's no longer going to be targeting a race. It's going to be targeting that person."
+        },
+        "reasoning": "The speaker describes the impact as 'massive' and emphasizes fairer identification, showing belief in a strong positive effect on support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_016_669180",
+      "question_id": "qa_016",
+      "prolific_id": "669180",
+      "vqa": {
+        "id": "qa_016",
+        "prolific_id": "669180",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the feeling of being watched affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Would small changes in Feeling of being watched lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Generally, smaller changes work better for people that don't feel positively towards it. So, yes, smaller changes would be better and over time they may be more accepting of it."
+        },
+        "reasoning": "The speaker implies discomfort with being watched reduces support, and gradual implementation helps overcome resistance\u2014indicating that increased feelings of surveillance have a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_020_669180",
+      "question_id": "qa_020",
+      "prolific_id": "669180",
+      "vqa": {
+        "id": "qa_020",
+        "prolific_id": "669180",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does taking time to implement cameras affect public support according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q16",
+          "question": "How would you describe the relationship between Time to develop effect and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I would say it's strong. It's much stronger if things are done slowly. And it's much more negative if things are done too quickly."
+        },
+        "reasoning": "The speaker believes slow rollout leads to stronger support, while fast implementation causes backlash\u2014indicating that taking time has a positive effect on building acceptance."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_022_660cda",
+      "question_id": "qa_022",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do communities of color affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "Would small changes in Communities of color lead to noticeable changes in Support for surveillance camera, or would it take larger shifts? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "No small changes in communities of color would not lead to noticeable changes in support for surveillance cameras, it would take a larger shift. I think it would mainly have a negative effect and it would be a strong negative effect."
+        },
+        "reasoning": "The person believes changes in communities of color have a 'mainly negative effect' on support and calls it a 'strong negative effect,' showing a clear belief in a significant negative causal relationship."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_023_660cda",
+      "question_id": "qa_023",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_023",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do Black communities affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q8",
+          "question": "Is the effect of Black communities on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "It will definitely take time to develop. I think it overall will have a negative effect and a strong one."
+        },
+        "reasoning": "Although the effect takes time, the person explicitly states it has an 'overall negative effect' and describes it as 'strong,' confirming a belief in a significant negative influence."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_027_660cda",
+      "question_id": "qa_027",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does trust in the community affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q12",
+          "question": "How would you describe the relationship between Community trust and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "The relationship between community trust and support for surveillance cameras is a somewhat weak connection in my opinion. It has a negative effect. It will decrease it. It's a strong negative effect."
+        },
+        "reasoning": "Even though the connection is described as 'somewhat weak,' the person insists the effect is 'negative' and 'strong,' so their belief is still in a meaningful negative causal direction."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "B",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_029_660cda",
+      "question_id": "qa_029",
+      "prolific_id": "660cda",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "660cda",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does data collection regulation affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Data collection regulation have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Data regulation has a positive effect. It's pretty significant and I'd say that it's relatively strong."
+        },
+        "reasoning": "The speaker says data regulation has a 'positive effect' and describes it as 'relatively strong' and 'pretty significant,' showing a belief that stronger rules increase public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_022_68c19d",
+      "question_id": "qa_022",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_022",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does reducing crime affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q7",
+          "question": "How would you describe the relationship between Reduction in crime and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "There is definitely a strong and positive effect between reduction in crime and support for surveillance cameras. If there was an immediate reduction in crime within the first few months of implementing the surveillance, that is clear proof that it is effective. If the crime continues to decrease over time, then the effect would be much stronger."
+        },
+        "reasoning": "The person explicitly says there is a 'strong and positive effect' \u2014 when crime goes down due to cameras, public support increases."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_029_68c19d",
+      "question_id": "qa_029",
+      "prolific_id": "68c19d",
+      "vqa": {
+        "id": "qa_029",
+        "prolific_id": "68c19d",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does lowering crime rates affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q17",
+          "question": "Does Lowering crime rates have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Lowering crime rates would definitely have a positive effect on supporting surveillance cameras. The effect would definitely be strong knowing that the crime rates have gone down and would continue to go down as a result of it."
+        },
+        "reasoning": "The answer uses strong language \u2014 'definitely have a positive effect' and 'effect would definitely be strong' \u2014 showing a firm belief in a positive causal impact."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_028_6483fd",
+      "question_id": "qa_028",
+      "prolific_id": "6483fd",
+      "vqa": {
+        "id": "qa_028",
+        "prolific_id": "6483fd",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government regulation of cameras affect support for installing them according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q14",
+          "question": "Does Government regulation of surveillance technologies have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I guess government regulation could have a positive effect, a small positive effect for support if they could say that, you know, these are the only places that you can be filmed and people knew that, that would have a positive effect. I don't know how strong of a positive effect, but it would be a positive effect."
+        },
+        "reasoning": "The speaker sees regulation as providing boundaries that make surveillance more acceptable, leading to a modest but still positive effect on public support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_024_58014d",
+      "question_id": "qa_024",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does fear affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Is the effect of Fear on Support for surveillance camera immediate, or does it take time to develop? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Immediate. Those opposed are going to instantly be bothered by it, though they'd be a minority here so it wouldn't have as big an impact as some other policies on crime might."
+        },
+        "reasoning": "Although the answer focuses on immediacy, the context implies fear increases support\u2014those who lack fear or oppose due to fearlessness are the minority, suggesting fear drives support."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_027_58014d",
+      "question_id": "qa_027",
+      "prolific_id": "58014d",
+      "vqa": {
+        "id": "qa_027",
+        "prolific_id": "58014d",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does economic impact of fear affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q13",
+          "question": "How confident are you that changes in Economic impact of fear lead to changes in Support for surveillance camera? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Likely positive; the more people feel economically well-off(and they tend to here) the more they're going to support surveillance overall when they factor in their own safety, whether or not they're right about this."
+        },
+        "reasoning": "The person believes feeling economically secure (due to reduced fear) increases support for cameras, indicating a positive effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "A",
+      "is_correct": false,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_024_673021",
+      "question_id": "qa_024",
+      "prolific_id": "673021",
+      "vqa": {
+        "id": "qa_024",
+        "prolific_id": "673021",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much do crime rates affect support for surveillance cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "A",
+        "source_qa": {
+          "question_number": "Q9",
+          "question": "Does Crime rates have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Crime rate has a positive influence on the support. In fact, it's the biggest influence"
+        },
+        "reasoning": "Higher crime rates lead to greater support, according to the person, who calls it the 'biggest influence,' confirming a positive causal belief."
+      },
+      "generated_answer": "A",
+      "generated_response": "{\"answer\":\"A\"}",
+      "correct_answer": "A",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_025_60d54e",
+      "question_id": "qa_025",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_025",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does the 'Big Brother' feeling affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q10",
+          "question": "How would you describe the relationship between Big Brother perception and Support for surveillance camera? Is it a strong or weak connection? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "I think the Big Brother perception is probably a big deterrent. I think people are going to feel like they're being watched unnecessarily, so that's probably something that has a negative connotation with it."
+        },
+        "reasoning": "The person describes the 'Big Brother' perception as a 'big deterrent,' clearly indicating a negative effect on support."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    },
+    {
+      "question_anchor": "qa_026_60d54e",
+      "question_id": "qa_026",
+      "prolific_id": "60d54e",
+      "vqa": {
+        "id": "qa_026",
+        "prolific_id": "60d54e",
+        "context_length": "long",
+        "topic": "surveillance",
+        "task_type": "belief_attribution",
+        "task_question": "How much does government involvement affect support for installing cameras according to this person?",
+        "answer_options": {
+          "A": "POSITIVE effect",
+          "B": "NEGATIVE effect"
+        },
+        "answer": "B",
+        "source_qa": {
+          "question_number": "Q11",
+          "question": "Does Limited government involvement have a positive or negative effect on Support for surveillance camera, and how significant is this effect? Does it have a positive effect (increasing it) or a negative effect (decreasing it)? How strong is this effect?",
+          "answer": "Limited government involvement is also something that would be a negative impact. You know, anytime you have the government involved in monitoring citizens, it definitely is a touchy subject, so that would definitely be a negative effect."
+        },
+        "reasoning": "The phrasing implies that more government involvement reduces support; thus, limited involvement (as a hypothetical good) suggests that actual government involvement has a negative effect."
+      },
+      "generated_answer": "B",
+      "generated_response": "{\"answer\":\"B\"}",
+      "correct_answer": "B",
+      "is_correct": true,
+      "method_used": "function_call"
+    }
+  ]
+}
